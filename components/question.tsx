@@ -28,16 +28,15 @@ function Choice({ choice, answer }: { choice: string; answer: string }) {
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   return (
     <Button
-      //   className={`${
-      //     choice === answer
-      //       ? isCorrect
-      //         ? "bg-green-500"
-      //         : null
-      //       : isCorrect === false && "bg-red-500"
-      //   }
-      //   h-full
-      //   `}
-      className="h-full"
+      className={`${
+        choice === answer
+          ? isCorrect
+            ? "bg-green-500"
+            : null
+          : isCorrect === false && "bg-red-500"
+      }
+      h-full
+      `}
       onClick={() => {
         if (choice === answer) {
           setIsCorrect(true);
@@ -45,13 +44,7 @@ function Choice({ choice, answer }: { choice: string; answer: string }) {
           setIsCorrect(false);
         }
       }}
-      variant={
-        choice === answer
-          ? isCorrect
-            ? "default"
-            : "secondary"
-          : (isCorrect === false && "destructive") || "secondary"
-      }
+      variant={"secondary"}
     >
       <p className="w-full text-wrap">{choice}</p>
     </Button>
