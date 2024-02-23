@@ -1489,19 +1489,20 @@ export type Questions = (typeof questionsData)[0];
 
 export default function M4() {
   const navScore = useScore();
-  const { data, fetchNextPage, isFetchingNextPage } = useInfiniteQuery({
-    queryFn: async ({ pageParam }) => {
-      const from = pageParam === 1 ? 0 : (pageParam - 1) * 10;
-      const to = from + 9;
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-      return questionsData.slice(from, to);
-    },
-    queryKey: ["questions-m4"],
-    getNextPageParam: (_, pages) => {
-      return pages.length + 1;
-    },
-    initialPageParam: 1,
-  });
+  const { data, fetchNextPage, isFetchingNextPage, isLoading } =
+    useInfiniteQuery({
+      queryFn: async ({ pageParam }) => {
+        const from = pageParam === 1 ? 0 : (pageParam - 1) * 10;
+        const to = from + 9;
+        await new Promise((resolve) => setTimeout(resolve, 1000));
+        return questionsData.slice(from, to);
+      },
+      queryKey: ["questions-m4"],
+      getNextPageParam: (_, pages) => {
+        return pages.length + 1;
+      },
+      initialPageParam: 1,
+    });
   const questions = data?.pages.flatMap((question) => question);
 
   const lastPost = useRef<HTMLDivElement>(null);
@@ -1527,12 +1528,16 @@ export default function M4() {
       )
     );
 
-  const currentModuleScoreStore = createStore("m4-score");
-
   useEffect(() => {
     if (entry?.isIntersecting) fetchNextPage();
   }, [entry, fetchNextPage]);
 
+  if (isLoading)
+    return (
+      <div className="animate-pulse h-full w-full grid-cols-1 grid p-4 sm:px-8 md:px-32 lg:px-64 xl:px-80 gap-4 overflow-auto text-center text-xs">
+        Loading questions
+      </div>
+    );
   return (
     <main className="h-full w-full grid-cols-1 grid p-4 sm:px-8 md:px-32 lg:px-64 xl:px-80 gap-4 overflow-auto">
       {questions?.map((question) => {
