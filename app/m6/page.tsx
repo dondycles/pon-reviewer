@@ -1,7 +1,13 @@
 "use client";
 import Question from "@/components/question";
+import { useInfiniteQuery } from "@tanstack/react-query";
+import { useEffect, useRef } from "react";
+import { useIntersection } from "@mantine/hooks";
+import { useScore } from "@/store";
+import { create } from "zustand";
+import { persist } from "zustand/middleware";
 
-const questions = [
+const questionsData = [
   {
     question: "A correct cutting angle of a drill for ordinary work is:",
     choices: ["45⁰", "59⁰", "64⁰", "70⁰"],
@@ -3774,14 +3780,73 @@ const questions = [
   },
 ];
 
-export type Questions = (typeof questions)[0];
+export type Questions = (typeof questionsData)[0];
 
 export default function M6() {
+  const navScore = useScore();
+  const { data, fetchNextPage, isFetchingNextPage } = useInfiniteQuery({
+    queryFn: async ({ pageParam }) => {
+      const from = pageParam === 1 ? 0 : (pageParam - 1) * 10;
+      const to = from + 9;
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+      return questionsData.slice(from, to);
+    },
+    queryKey: ["questions-m6"],
+    getNextPageParam: (_, pages) => {
+      return pages.length + 1;
+    },
+    initialPageParam: 1,
+  });
+  const questions = data?.pages.flatMap((question) => question);
+
+  const lastPost = useRef<HTMLDivElement>(null);
+
+  const { ref: veryLastPost, entry } = useIntersection({
+    root: lastPost.current,
+    threshold: 1,
+  });
+
+  type Score = {
+    score: number;
+    setScore: (score: number) => void;
+  };
+
+  const createStore = (name: string) =>
+    create<Score>()(
+      persist(
+        (set) => ({
+          score: 0,
+          setScore: (score: number) => set({ score: score }),
+        }),
+        { name: name }
+      )
+    );
+
+  const currentModuleScoreStore = createStore("m6-score");
+
+  useEffect(() => {
+    if (entry?.isIntersecting) fetchNextPage();
+  }, [entry, fetchNextPage]);
+
   return (
     <main className="h-full w-full grid-cols-1 grid p-4 sm:px-8 md:px-32 lg:px-64 xl:px-80 gap-4 overflow-auto">
-      {questions.map((question) => {
-        return <Question question={question} key={question.question} />;
+      {questions?.map((question) => {
+        return (
+          <Question
+            correct={() => {
+              navScore.setScore(navScore.score + 1);
+            }}
+            question={question}
+            key={question.question}
+          />
+        );
       })}
+      <div ref={veryLastPost} className="w-full" />
+      {isFetchingNextPage && (
+        <p className="text-center text-xs animate-pulse">
+          Loading more questions
+        </p>
+      )}
     </main>
   );
 }

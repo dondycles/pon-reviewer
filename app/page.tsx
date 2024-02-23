@@ -42,13 +42,12 @@ export default function Home() {
       {modules.map((module) => {
         return (
           <Link href={module.link}>
-          <Card className="text-center">
-            <CardHeader>
-              <CardTitle>{module.name}</CardTitle>
-            </CardHeader>
-          </Card>
+            <Card className="text-center">
+              <CardHeader>
+                <CardTitle className="text-lg">{module.name}</CardTitle>
+              </CardHeader>
+            </Card>
           </Link>
-
         );
       })}
     </main>

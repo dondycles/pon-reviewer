@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Nav from "@/components/nav";
+import QueryProvider from "@/components/QueryProvider";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -26,15 +27,17 @@ export default function RootLayout({
       <body
         className={`bg-background font-poppins antialiased ${poppins.variable} `}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <Nav />
-          {children}
-        </ThemeProvider>
+        <QueryProvider>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <Nav />
+            {children}
+          </ThemeProvider>
+        </QueryProvider>
       </body>
     </html>
   );

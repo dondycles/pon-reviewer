@@ -2,12 +2,19 @@
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Button } from "./ui/button";
 import { useState } from "react";
+import { useScore } from "@/store";
 export type Questions = {
-  question: string,
-  choices: string[],
-  answer:string
-}
-export default function Question({ question }: { question: Questions }) {
+  question: string;
+  choices: string[];
+  answer: string;
+};
+export default function Question({
+  question,
+  correct,
+}: {
+  question: Questions;
+  correct: () => void;
+}) {
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   return (
     <Card>
@@ -19,7 +26,12 @@ export default function Question({ question }: { question: Questions }) {
       <CardContent className="grid-cols-2 grid gap-4">
         {question.choices.map((choice) => {
           return (
-            <Choice key={choice} answer={question.answer} choice={choice} />
+            <Choice
+              correct={() => correct()}
+              key={choice}
+              answer={question.answer}
+              choice={choice}
+            />
           );
         })}
       </CardContent>
@@ -27,14 +39,23 @@ export default function Question({ question }: { question: Questions }) {
   );
 }
 
-function Choice({ choice, answer }: { choice: string; answer: string }) {
+function Choice({
+  choice,
+  answer,
+  correct,
+}: {
+  choice: string;
+  answer: string;
+  correct: () => void;
+}) {
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
+  const score = useScore();
+
   return (
     <Button
       className={`
       border-solid border-[1px]
       ${
-       
         choice === answer
           ? isCorrect
             ? "bg-green-500 border-green-500"
@@ -46,6 +67,7 @@ function Choice({ choice, answer }: { choice: string; answer: string }) {
       onClick={() => {
         if (choice === answer) {
           setIsCorrect(true);
+          correct();
         } else {
           setIsCorrect(false);
         }
