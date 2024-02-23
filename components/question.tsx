@@ -1,9 +1,12 @@
 "use client";
-import { Questions } from "@/app/page";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Button } from "./ui/button";
 import { useState } from "react";
-
+export type Questions = {
+  question: string,
+  choices: string[],
+  answer:string
+}
 export default function Question({ question }: { question: Questions }) {
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   return (
