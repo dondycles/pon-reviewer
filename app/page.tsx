@@ -1485,21 +1485,21 @@ export type Questions = (typeof questions)[0];
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
-  const shuffleMode = useShuffleMode();
-  function shuffleArray(arr: typeof questions) {
-    const shuffledArray = [...arr]; // Create a copy of the original array
-    for (let i = shuffledArray.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1)); // Generate a random index
-      [shuffledArray[i], shuffledArray[j]] = [
-        shuffledArray[j],
-        shuffledArray[i],
-      ]; // Swap elements
-    }
-    return shuffledArray; // Return the shuffled copy
-  }
+  // const shuffleMode = useShuffleMode();
+  // function shuffleArray(arr: typeof questions) {
+  //   const shuffledArray = [...arr]; // Create a copy of the original array
+  //   for (let i = shuffledArray.length - 1; i > 0; i--) {
+  //     const j = Math.floor(Math.random() * (i + 1)); // Generate a random index
+  //     [shuffledArray[i], shuffledArray[j]] = [
+  //       shuffledArray[j],
+  //       shuffledArray[i],
+  //     ]; // Swap elements
+  //   }
+  //   return shuffledArray; // Return the shuffled copy
+  // }
 
-  const unshuffledQuestions = questions;
-  const shuffledQuestion = shuffleArray(questions);
+  // const unshuffledQuestions = questions;
+  // const shuffledQuestion = shuffleArray(questions);
 
   useEffect(() => {
     setMounted(true);
@@ -1508,13 +1508,9 @@ export default function Home() {
   if (mounted)
     return (
       <main className="h-full w-full grid-cols-1 grid p-4 sm:px-8 md:px-32 lg:px-64 xl:px-80 gap-4 overflow-auto">
-        {shuffleMode.mode
-          ? shuffledQuestion.map((question) => {
-              return <Question question={question} key={question.question} />;
-            })
-          : unshuffledQuestions.map((question) => {
-              return <Question question={question} key={question.question} />;
-            })}
+        {questions.map((question) => {
+          return <Question question={question} key={question.question} />;
+        })}
       </main>
     );
 }

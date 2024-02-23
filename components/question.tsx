@@ -28,12 +28,15 @@ function Choice({ choice, answer }: { choice: string; answer: string }) {
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   return (
     <Button
-      className={`${
+      className={`
+      border-solid border-[1px]
+      ${
+       
         choice === answer
           ? isCorrect
-            ? "bg-green-500"
+            ? "bg-green-500 border-green-500"
             : null
-          : isCorrect === false && "bg-red-500"
+          : isCorrect === false && "bg-red-500 border-red-500"
       }
       h-full
       `}
