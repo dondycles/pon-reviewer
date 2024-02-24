@@ -41,7 +41,7 @@ export default function Nav() {
           </Button>
           <p className="text-sm">Module {pathname.replace("/module/m", "")}</p>
           <Badge variant="outline" className="ml-auto mr-0">
-            Score: {currentModuleScore.score} / {totalItems}
+            {currentModuleScore.score} / {totalItems}
           </Badge>
           <Button
             onClick={() => shuffle.setMode(!shuffle.mode)}
