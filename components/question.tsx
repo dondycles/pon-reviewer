@@ -30,6 +30,7 @@ export default function Question({
         {question.choices.map((choice) => {
           return (
             <Choice
+              chances={chances}
               disabled={chances === 0 || isCorrect}
               correct={() => {
                 correct();
@@ -53,35 +54,44 @@ function Choice({
   correct,
   deductChance,
   disabled,
+  chances,
 }: {
   choice: string;
   answer: string;
   correct: () => void;
   deductChance: () => void;
   disabled: boolean;
+  chances: number;
 }) {
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   return (
     <Button
-      disabled={isCorrect === false || disabled}
+      disabled={
+        (choice !== answer && isCorrect === false) ||
+        (choice !== answer && disabled)
+      }
       className={`
       border-solid border-[1px] relative disabled:opacity-75
       ${
-        choice === answer
+        chances === 0
+          ? choice === answer
+            ? "border-green-500"
+            : "bg-destructive border-destructive"
+          : choice === answer
           ? isCorrect
             ? "bg-green-500 border-green-500"
             : null
-          : isCorrect === false && "bg-destructive border-destructive "
+          : isCorrect === false && "bg-destructive border-destructive"
       }
       h-full
       `}
       onClick={() => {
         if (disabled) return;
-        deductChance();
         if (choice === answer) {
           setIsCorrect(true);
           correct();
         } else {
+          deductChance();
           setIsCorrect(false);
         }
       }}
