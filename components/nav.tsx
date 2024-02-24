@@ -42,11 +42,12 @@ export default function Nav() {
       </div> */}
 
       {pathname != "/" && (
-        <div className="flex items-center gap-4">
+        <div className="flex flex-1 items-center gap-4">
           <Button size={"icon"} onClick={() => route.push("/")}>
             <GrReturn className="text-xl" />
           </Button>
-          <Badge variant="outline">
+          <p className="text-sm">Module {pathname.replace("/module/m", "")}</p>
+          <Badge variant="outline" className="ml-auto mr-0">
             Score: {currentModuleScore.score} / {totalItems}
           </Badge>
         </div>
