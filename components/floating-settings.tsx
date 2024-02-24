@@ -32,8 +32,8 @@ export default function FloatingMenu() {
   if (pathname === "/" || !totalItems) return;
 
   return (
-    <div className="fixed bottom-4 right-1/2 translate-x-1/2 w-fit px-4 py-1 rounded-full z-10 flex flex-row gap-4 bg-card border-border border-[1px] items-center">
-      <p className="h-fit text-sm text-muted-foreground">
+    <div className="fixed bottom-4 right-1/2 translate-x-1/2 w-[200px] px-4 py-1 rounded-full z-10 flex flex-row gap-4 bg-card border-border border-[1px] items-center justify-center">
+      <p className="h-fit text-sm text-muted-foreground flex-shrink-0">
         Score:{" "}
         <span className="text-foreground">{currentModuleScore.score}</span> /{" "}
         {totalItems}
