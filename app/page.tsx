@@ -9,31 +9,31 @@ export default function Home() {
   const modules = [
     {
       name: "Ibong Tiririt 1",
-      link: "/m1",
+      link: "/module/m1",
     },
     {
       name: "Ibong Tiririt 2",
-      link: "/m2",
+      link: "/module/m2",
     },
     {
       name: "Ibong Tiririt 3",
-      link: "/m3",
+      link: "/module/m3",
     },
     {
       name: "Ibong Tiririt 4",
-      link: "/m4",
+      link: "/module/m4",
     },
     {
       name: "Ibong Tiririt 5",
-      link: "/m5",
+      link: "/module/m5",
     },
     {
       name: "Ibong Tiririt 6",
-      link: "/m6",
+      link: "/module/m6",
     },
     {
       name: "Ibong Tiririt 7",
-      link: "/m7",
+      link: "/module/m7",
     },
   ];
 
@@ -42,9 +42,11 @@ export default function Home() {
       {modules.map((module) => {
         return (
           <Link href={module.link}>
-            <Card className="text-center">
+            <Card className="text-center ">
               <CardHeader>
-                <CardTitle className="text-lg">{module.name}</CardTitle>
+                <CardTitle className="text-lg text-primary">
+                  {module.name}
+                </CardTitle>
               </CardHeader>
             </Card>
           </Link>

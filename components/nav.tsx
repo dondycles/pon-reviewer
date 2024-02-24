@@ -39,8 +39,8 @@ export default function Nav() {
             <GrReturn className="text-xl" />
           </Button>
           <Badge variant="outline">
-            Ibong Tiririt {pathname.toLocaleUpperCase()} Score:{" "}
-            {currentModuleScore.score}
+            Ibong Tiririt {pathname.toLocaleUpperCase().replace("/MODULE/", "")}{" "}
+            Score: {currentModuleScore.score}
           </Badge>
         </div>
       )}

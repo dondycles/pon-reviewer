@@ -60,7 +60,7 @@ function Choice({
           ? isCorrect
             ? "bg-green-500 border-green-500"
             : null
-          : isCorrect === false && "bg-red-500 border-red-500"
+          : isCorrect === false && "bg-destructive border-destructive"
       }
       h-full
       `}

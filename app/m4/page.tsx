@@ -1488,6 +1488,11 @@ const questionsData = [
 export type Questions = (typeof questionsData)[0];
 
 export default function M4() {
+  const fetchJson = async (filename: string) => {
+    await fetch(`http://localhost:3000/${filename}.json`)
+      .then((res) => res.json())
+      .then((json) => console.log(json));
+  };
   const navScore = useScore();
   const { data, fetchNextPage, isFetchingNextPage, isLoading } =
     useInfiniteQuery({
@@ -1531,6 +1536,10 @@ export default function M4() {
   useEffect(() => {
     if (entry?.isIntersecting) fetchNextPage();
   }, [entry, fetchNextPage]);
+
+  useEffect(() => {
+    fetchJson("m4");
+  }, []);
 
   if (isLoading)
     return (
