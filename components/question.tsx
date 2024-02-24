@@ -88,7 +88,7 @@ function Choice({
       variant={"secondary"}
     >
       <p className="w-full text-wrap ">{choice}</p>
-      <div className="">
+      <div className="absolute top-1/2 translate-x-1/2 translate-y-1/2 left-1/2">
         <Confetti
           config={{
             dragFriction: 0.1,
