@@ -4,9 +4,8 @@ import { useInfiniteQuery } from "@tanstack/react-query";
 import { useEffect, useRef } from "react";
 import { useIntersection } from "@mantine/hooks";
 import { useScore } from "@/store";
-import { create } from "zustand";
-import { persist } from "zustand/middleware";
-
+import { MdError } from "react-icons/md";
+import { LuLoader2 } from "react-icons/lu";
 export default function Module({ params }: { params: { module: string } }) {
   const navScore = useScore();
 
@@ -33,6 +32,7 @@ export default function Module({ params }: { params: { module: string } }) {
         return pages.length + 1;
       },
       initialPageParam: 1,
+      retry: 2,
     });
 
   const questions = data?.pages.flatMap((question) => question);
@@ -48,30 +48,49 @@ export default function Module({ params }: { params: { module: string } }) {
     if (entry?.isIntersecting) fetchNextPage();
   }, [entry, fetchNextPage]);
 
-  if (isLoading)
-    return (
-      <div className="animate-pulse h-full w-full grid-cols-1 grid p-4 sm:px-8 md:px-32 lg:px-64 xl:px-80 gap-4 overflow-auto text-center text-xs">
-        Loading questions
-      </div>
-    );
   return (
     <main className="h-full w-full grid-cols-1 grid p-4 sm:px-8 md:px-32 lg:px-64 xl:px-80 gap-4 overflow-auto">
-      {questions?.map((question) => {
-        return (
-          <Question
-            correct={() => {
-              navScore.setScore(navScore.score + 1);
-            }}
-            question={question}
-            key={question.question}
-          />
-        );
-      })}
-      <div ref={veryLastPost} className="w-full" />
-      {isFetchingNextPage && (
-        <p className="text-center text-xs animate-pulse">
-          Loading more questions
-        </p>
+      {isLoading ? (
+        <div className="animate-pulse text-xs flex flex-row gap-2 items-center justify-center">
+          <p>Fetching module</p>
+          <span>
+            <LuLoader2 className="animate-spin" />
+          </span>
+        </div>
+      ) : (
+        <>
+          {data ? (
+            <>
+              {questions?.map((question) => {
+                return (
+                  <Question
+                    correct={() => {
+                      navScore.setScore(navScore.score + 1);
+                    }}
+                    question={question}
+                    key={question.question}
+                  />
+                );
+              })}
+              <div ref={veryLastPost} className="w-full" />
+              {isFetchingNextPage && (
+                <div className="animate-pulse text-xs flex flex-row gap-2 items-center justify-center">
+                  <p>Fetching next questions</p>
+                  <span>
+                    <LuLoader2 className="animate-spin" />
+                  </span>
+                </div>
+              )}
+            </>
+          ) : (
+            <div className="text-xs flex flex-row gap-2 items-center justify-center text-destructive">
+              <p>Module not found</p>
+              <span>
+                <MdError />
+              </span>
+            </div>
+          )}
+        </>
       )}
     </main>
   );
