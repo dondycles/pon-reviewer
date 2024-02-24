@@ -29,6 +29,7 @@ export default function Nav() {
     if (!pathname) return;
     fetchQuestions(pathname.replace("/module/", ""));
     currentModuleScore.setScore(0);
+    shuffle.setMode(false);
   }, [pathname]);
 
   return (

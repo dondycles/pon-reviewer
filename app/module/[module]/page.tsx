@@ -1,7 +1,7 @@
 "use client";
 import Question from "@/components/question";
 import { useInfiniteQuery } from "@tanstack/react-query";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useIntersection } from "@mantine/hooks";
 import { shuffleMode, useScore } from "@/store";
 import { MdError } from "react-icons/md";
@@ -45,13 +45,18 @@ export default function Module({ params }: { params: { module: string } }) {
     return data;
   };
 
+  const memoizedShuffledQuestions = useMemo(
+    async () => await fetchShuffledQuestions(),
+    []
+  );
+
   const { data, fetchNextPage, isFetchingNextPage, isLoading } =
     useInfiniteQuery({
       queryFn: async ({ pageParam }) => {
         const from = pageParam === 1 ? 0 : (pageParam - 1) * 10;
         const to = from + 9;
         const questionsData = shuffledMode
-          ? await fetchShuffledQuestions()
+          ? await memoizedShuffledQuestions
           : await fetchUnshuffledQuestions();
         await new Promise((resolve) => setTimeout(resolve, 2000));
         return questionsData.slice(from, to);
@@ -61,7 +66,6 @@ export default function Module({ params }: { params: { module: string } }) {
         return pages.length + 1;
       },
       initialPageParam: 1,
-      retry: 1,
     });
 
   const questions = data?.pages.flatMap((question) => question);
