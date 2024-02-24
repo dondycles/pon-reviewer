@@ -34,21 +34,6 @@ export default function Nav() {
 
   return (
     <header className="sticky top-0 left-0 w-full flex flex-row gap-4 justify-between  p-4 sm:px-8 md:px-32 lg:px-64 xl:px-80 border-b-border border-b-[1px] backdrop-blur-sm items-center bg-background/80 z-10">
-      {/* <div className="flex gap-4">
-        <Button
-          variant={shuffleMode.mode ? "default" : "outline"}
-          onClick={() => shuffleMode.setMode(true)}
-        >
-          Shuffled
-        </Button>
-        <Button
-          variant={!shuffleMode.mode ? "default" : "outline"}
-          onClick={() => shuffleMode.setMode(false)}
-        >
-          Unshuffled
-        </Button>
-      </div> */}
-
       {pathname != "/" && (
         <div className="flex flex-1 items-center gap-4">
           <Button size={"icon"} onClick={() => route.push("/")}>
@@ -67,7 +52,6 @@ export default function Nav() {
           </Button>
         </div>
       )}
-
       <ThemeToggle />
     </header>
   );
