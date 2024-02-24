@@ -31,24 +31,19 @@ export default function Module({ params }: { params: { module: string } }) {
     // Return the shuffled array
     return shuffledArray;
   };
-  const fetchShuffledQuestions = async () => {
+  const fetchShuffledQuestions = useMemo(async () => {
     const data = await fetch(`/${params.module}.json`).then((res) => {
       return res.json();
     });
     return shuffleArray(data);
-  };
+  }, []);
 
-  const fetchUnshuffledQuestions = async () => {
+  const fetchUnshuffledQuestions = useMemo(async () => {
     const data = await fetch(`/${params.module}.json`).then((res) => {
       return res.json();
     });
     return data;
-  };
-
-  const memoizedShuffledQuestions = useMemo(
-    async () => await fetchShuffledQuestions(),
-    []
-  );
+  }, []);
 
   const { data, fetchNextPage, isFetchingNextPage, isLoading } =
     useInfiniteQuery({
@@ -56,8 +51,8 @@ export default function Module({ params }: { params: { module: string } }) {
         const from = pageParam === 1 ? 0 : (pageParam - 1) * 10;
         const to = from + 9;
         const questionsData = shuffledMode
-          ? await memoizedShuffledQuestions
-          : await fetchUnshuffledQuestions();
+          ? await fetchShuffledQuestions
+          : await fetchUnshuffledQuestions;
         await new Promise((resolve) => setTimeout(resolve, 2000));
         return questionsData.slice(from, to);
       },
