@@ -1,23 +1,48 @@
 "use client";
 import Question from "@/components/question";
 import { useInfiniteQuery } from "@tanstack/react-query";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useIntersection } from "@mantine/hooks";
-import { useScore } from "@/store";
+import { shuffleMode, useScore } from "@/store";
 import { MdError } from "react-icons/md";
 import { LuLoader2 } from "react-icons/lu";
+import { Button } from "@/components/ui/button";
 export default function Module({ params }: { params: { module: string } }) {
   const navScore = useScore();
+  const shuffledMode = shuffleMode().mode;
 
-  const fetchQuestions = async () => {
-    try {
-      const data = await fetch(`/${params.module}.json`).then((res) => {
-        return res.json();
-      });
-      return data;
-    } catch (error) {
-      console.log(error);
+  const shuffleArray = (array: any[]) => {
+    if (!Array.isArray(array)) {
+      console.error("Input is not an array.");
+      return;
     }
+    // Create a copy of the original array
+    const shuffledArray = array.slice();
+
+    // Perform Fisher-Yates shuffle algorithm
+    for (let i = shuffledArray.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffledArray[i], shuffledArray[j]] = [
+        shuffledArray[j],
+        shuffledArray[i],
+      ];
+    }
+
+    // Return the shuffled array
+    return shuffledArray;
+  };
+  const fetchShuffledQuestions = async () => {
+    const data = await fetch(`/${params.module}.json`).then((res) => {
+      return res.json();
+    });
+    return shuffleArray(data);
+  };
+
+  const fetchUnshuffledQuestions = async () => {
+    const data = await fetch(`/${params.module}.json`).then((res) => {
+      return res.json();
+    });
+    return data;
   };
 
   const { data, fetchNextPage, isFetchingNextPage, isLoading } =
@@ -25,16 +50,18 @@ export default function Module({ params }: { params: { module: string } }) {
       queryFn: async ({ pageParam }) => {
         const from = pageParam === 1 ? 0 : (pageParam - 1) * 10;
         const to = from + 9;
-        const questionsData = await fetchQuestions();
-        await new Promise((resolve) => setTimeout(resolve, 1000));
+        const questionsData = shuffledMode
+          ? await fetchShuffledQuestions()
+          : await fetchUnshuffledQuestions();
+        await new Promise((resolve) => setTimeout(resolve, 2000));
         return questionsData.slice(from, to);
       },
-      queryKey: ["module", params.module],
+      queryKey: ["module", params.module, shuffledMode],
       getNextPageParam: (_, pages) => {
         return pages.length + 1;
       },
       initialPageParam: 1,
-      retry: 2,
+      retry: 1,
     });
 
   const questions = data?.pages.flatMap((question) => question);
@@ -82,7 +109,7 @@ export default function Module({ params }: { params: { module: string } }) {
                     <LuLoader2 className="animate-spin" />
                   </span>
                 </div>
-              )}
+              )}{" "}
             </>
           ) : (
             <div className="text-xs flex flex-row gap-2 items-center justify-center text-destructive">

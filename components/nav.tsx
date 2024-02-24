@@ -6,11 +6,14 @@ import { usePathname, useRouter } from "next/navigation";
 import { Badge } from "@/components/ui/badge";
 import { GrReturn } from "react-icons/gr";
 import { useEffect, useState } from "react";
+import { MdShuffle } from "react-icons/md";
+import { Shuffle } from "lucide-react";
 export default function Nav() {
   const currentModuleScore = useScore();
   const route = useRouter();
   const pathname = usePathname();
   const [totalItems, setTotalItems] = useState(0);
+  const shuffle = useShuffleMode();
   const fetchQuestions = async (module: string) => {
     try {
       const data = await fetch(`/${module}.json`).then((res) => {
@@ -54,8 +57,16 @@ export default function Nav() {
           <Badge variant="outline" className="ml-auto mr-0">
             Score: {currentModuleScore.score} / {totalItems}
           </Badge>
+          <Button
+            onClick={() => shuffle.setMode(!shuffle.mode)}
+            variant={shuffle.mode ? "default" : "outline"}
+            size={"icon"}
+          >
+            <Shuffle className="h-5 w-5" />
+          </Button>
         </div>
       )}
+
       <ThemeToggle />
     </header>
   );
