@@ -5,14 +5,22 @@ import { Button } from "./ui/button";
 import { usePathname, useRouter } from "next/navigation";
 import { Badge } from "@/components/ui/badge";
 import { GrReturn } from "react-icons/gr";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 export default function Nav() {
-  const shuffleMode = useShuffleMode();
   const currentModuleScore = useScore();
   const route = useRouter();
   const pathname = usePathname();
+  const [totalItems, setTotalItems] = useState(0);
+  const fetchQuestions = async (module: string) => {
+    const data = await fetch(`/${module}.json`).then((res) => {
+      return res.json();
+    });
+    setTotalItems(data.length);
+  };
 
   useEffect(() => {
+    if (!pathname) return;
+    fetchQuestions(pathname.replace("/module/", ""));
     currentModuleScore.setScore(0);
   }, [pathname]);
 
@@ -39,8 +47,7 @@ export default function Nav() {
             <GrReturn className="text-xl" />
           </Button>
           <Badge variant="outline">
-            Ibong Tiririt {pathname.toLocaleUpperCase().replace("/MODULE/", "")}{" "}
-            Score: {currentModuleScore.score}
+            Score: {currentModuleScore.score} / {totalItems}
           </Badge>
         </div>
       )}
