@@ -17,6 +17,7 @@ export default function Question({
   correct: () => void;
 }) {
   const [chances, setChances] = useState(2);
+  const [isCorrect, setIsCorrect] = useState(false);
 
   return (
     <Card>
@@ -29,8 +30,11 @@ export default function Question({
         {question.choices.map((choice) => {
           return (
             <Choice
-              disabled={chances === 0}
-              correct={() => correct()}
+              disabled={chances === 0 || isCorrect}
+              correct={() => {
+                correct();
+                setIsCorrect(true);
+              }}
               key={choice}
               answer={question.answer}
               choice={choice}
@@ -61,13 +65,13 @@ function Choice({
     <Button
       disabled={isCorrect === false || disabled}
       className={`
-      border-solid border-[1px] relative
+      border-solid border-[1px] relative disabled:opacity-75
       ${
         choice === answer
           ? isCorrect
             ? "bg-green-500 border-green-500"
             : null
-          : isCorrect === false && "bg-destructive border-destructive"
+          : isCorrect === false && "bg-destructive border-destructive "
       }
       h-full
       `}
@@ -83,7 +87,7 @@ function Choice({
       }}
       variant={"secondary"}
     >
-      <p className="w-full text-wrap">{choice}</p>
+      <p className="w-full text-wrap ">{choice}</p>
       <div className="">
         <Confetti
           config={{
