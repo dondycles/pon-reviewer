@@ -12,10 +12,14 @@ export default function Nav() {
   const pathname = usePathname();
   const [totalItems, setTotalItems] = useState(0);
   const fetchQuestions = async (module: string) => {
-    const data = await fetch(`/${module}.json`).then((res) => {
-      return res.json();
-    });
-    setTotalItems(data.length);
+    try {
+      const data = await fetch(`/${module}.json`).then((res) => {
+        return res.json();
+      });
+      setTotalItems(data.length);
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   useEffect(() => {

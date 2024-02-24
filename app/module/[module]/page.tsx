@@ -10,10 +10,14 @@ export default function Module({ params }: { params: { module: string } }) {
   const navScore = useScore();
 
   const fetchQuestions = async () => {
-    const data = await fetch(`/${params.module}.json`).then((res) => {
-      return res.json();
-    });
-    return data;
+    try {
+      const data = await fetch(`/${params.module}.json`).then((res) => {
+        return res.json();
+      });
+      return data;
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   const { data, fetchNextPage, isFetchingNextPage, isLoading } =
