@@ -1,8 +1,8 @@
 "use client";
 import { useScore, shuffleMode as useShuffleMode } from "@/store";
 import { Button } from "./ui/button";
-import { usePathname, useRouter } from "next/navigation";
-import { Badge } from "@/components/ui/badge";
+import { usePathname } from "next/navigation";
+
 import { useEffect, useState } from "react";
 import { Shuffle } from "lucide-react";
 export default function FloatingMenu() {
@@ -17,6 +17,7 @@ export default function FloatingMenu() {
       });
       setTotalItems(data.length);
     } catch (error) {
+      setTotalItems(0);
       console.log(error);
     }
   };
@@ -27,6 +28,8 @@ export default function FloatingMenu() {
     currentModuleScore.setScore(0);
     shuffle.setMode(false);
   }, [pathname]);
+
+  if (pathname === "/" || !totalItems) return;
 
   return (
     <div className="fixed bottom-4 right-1/2 translate-x-1/2 w-fit px-4 py-1 rounded-full z-10 flex flex-row gap-4 bg-card border-border border-[1px] items-center">

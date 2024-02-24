@@ -7,6 +7,8 @@ import { shuffleMode, useScore } from "@/store";
 import { MdError } from "react-icons/md";
 import { LuLoader2 } from "react-icons/lu";
 import { Button } from "@/components/ui/button";
+import { Skeleton } from "@/components/ui/skeleton";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 export default function Module({ params }: { params: { module: string } }) {
   const navScore = useScore();
   const shuffledMode = shuffleMode().mode;
@@ -79,11 +81,25 @@ export default function Module({ params }: { params: { module: string } }) {
   return (
     <main className="h-full w-full grid-cols-1 grid p-4 sm:px-8 md:px-32 lg:px-64 xl:px-80 gap-4 overflow-auto pb-24">
       {isLoading ? (
-        <div className="animate-pulse text-xs flex flex-row gap-2 items-center justify-center">
-          <p>Fetching module</p>
-          <span>
-            <LuLoader2 className="animate-spin" />
-          </span>
+        <div className="w-full flex flex-col gap-4">
+          {Array.from({ length: 3 }, (i, idx) => {
+            return (
+              <Card key={idx} className="w-full">
+                <CardHeader>
+                  <CardTitle>
+                    <Skeleton className="w-full h-24 p-4 bg-secondary" />
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="grid grid-cols-2 gap-4">
+                  {Array.from({ length: 4 }, (i, idx) => {
+                    return (
+                      <Skeleton key={idx} className="h-8 w-full bg-secondary" />
+                    );
+                  })}
+                </CardContent>
+              </Card>
+            );
+          })}
         </div>
       ) : (
         <>

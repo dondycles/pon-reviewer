@@ -3,31 +3,16 @@ import { useScore, shuffleMode as useShuffleMode } from "@/store";
 import { ThemeToggle } from "./theme-btn";
 import { Button } from "./ui/button";
 import { usePathname, useRouter } from "next/navigation";
-import { Badge } from "@/components/ui/badge";
 import { GrReturn } from "react-icons/gr";
-import { useEffect, useState } from "react";
-import { MdShuffle } from "react-icons/md";
-import { Shuffle } from "lucide-react";
+import { useEffect } from "react";
 export default function Nav() {
   const currentModuleScore = useScore();
   const route = useRouter();
   const pathname = usePathname();
-  const [totalItems, setTotalItems] = useState(0);
   const shuffle = useShuffleMode();
-  const fetchQuestions = async (module: string) => {
-    try {
-      const data = await fetch(`/${module}.json`).then((res) => {
-        return res.json();
-      });
-      setTotalItems(data.length);
-    } catch (error) {
-      console.log(error);
-    }
-  };
 
   useEffect(() => {
     if (!pathname) return;
-    fetchQuestions(pathname.replace("/module/", ""));
     currentModuleScore.setScore(0);
     shuffle.setMode(false);
   }, [pathname]);
