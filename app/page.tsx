@@ -1,7 +1,5 @@
 "use client";
-import Question from "@/components/question";
-import { useEffect, useState } from "react";
-import { shuffleMode as useShuffleMode } from "@/store";
+
 import { Card, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
 
