@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Nav from "@/components/nav";
 import QueryProvider from "@/components/QueryProvider";
+import FloatingMenu from "@/components/floating-settings";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -36,6 +37,7 @@ export default function RootLayout({
           >
             <Nav />
             {children}
+            <FloatingMenu />
           </ThemeProvider>
         </QueryProvider>
       </body>

@@ -77,7 +77,7 @@ export default function Module({ params }: { params: { module: string } }) {
   }, [entry, fetchNextPage]);
 
   return (
-    <main className="h-full w-full grid-cols-1 grid p-4 sm:px-8 md:px-32 lg:px-64 xl:px-80 gap-4 overflow-auto">
+    <main className="h-full w-full grid-cols-1 grid p-4 sm:px-8 md:px-32 lg:px-64 xl:px-80 gap-4 overflow-auto pb-24">
       {isLoading ? (
         <div className="animate-pulse text-xs flex flex-row gap-2 items-center justify-center">
           <p>Fetching module</p>
