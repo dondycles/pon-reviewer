@@ -10,9 +10,7 @@ export default function Module({ params }: { params: { module: string } }) {
   const navScore = useScore();
 
   const fetchQuestions = async () => {
-    const data = await fetch(
-      `http://localhost:3000/${params.module}.json`
-    ).then((res) => {
+    const data = await fetch(`/${params.module}.json`).then((res) => {
       return res.json();
     });
     return data;

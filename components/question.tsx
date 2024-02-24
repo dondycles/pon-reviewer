@@ -99,11 +99,12 @@ function Choice({
       variant={"secondary"}
     >
       <p className="w-full text-wrap ">{choice}</p>
-      <div className="absolute top-1/2 translate-x-1/2 translate-y-1/2 left-1/2">
+      <div className="absolute top-1/2 translate-x-1/2 translate-y-1/2 left-1/2 ">
         <Confetti
           config={{
             dragFriction: 0.1,
             startVelocity: 20,
+            duration: 500,
           }}
           active={isCorrect === true}
         />
