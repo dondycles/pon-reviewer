@@ -28,22 +28,29 @@ export default function Question({
         </CardTitle>
       </CardHeader>
       <CardContent className="grid-cols-2 grid gap-4">
-        {question.choices.map((choice) => {
-          return (
-            <Choice
-              chances={chances}
-              disabled={chances === 0 || isCorrect}
-              correct={() => {
-                correct();
-                setIsCorrect(true);
-              }}
-              key={choice}
-              answer={question.answer}
-              choice={choice}
-              deductChance={() => setChances((prev) => prev - 1)}
-            />
-          );
-        })}
+        {question.choices ? (
+          question.choices.map((choice) => {
+            return (
+              <Choice
+                chances={chances}
+                disabled={chances === 0 || isCorrect}
+                correct={() => {
+                  correct();
+                  setIsCorrect(true);
+                }}
+                key={choice}
+                answer={question.answer}
+                choice={choice}
+                deductChance={() => setChances((prev) => prev - 1)}
+              />
+            );
+          })
+        ) : (
+          <>
+            <Button>Reveal Answer</Button>
+            <Button variant={"outline"}>{question.answer}</Button>
+          </>
+        )}
       </CardContent>
     </Card>
   );
