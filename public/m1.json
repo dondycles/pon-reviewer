@@ -1,0 +1,957 @@
+[
+  {
+    "question": "This radial distance in a gear is measured between the addendum and dedendum circle, and is the sum of the addendum and the dedendum? How do you call this distance?",
+    "choices": ["Addendum", "Whole depth", "Working depth", "Space width"],
+    "answer": "Whole depth"
+  },
+  {
+    "question": "This minimum distance is measured between the nondriving side of a tooth and the adjacent side of the mating tooth. It is the amount by which the width of a tooth space exceeds the thickness of the engaging tooth measured on the pitch circle. What is this distance?",
+    "choices": ["Circular pitch", "Whole depth", "Backlash", "Space width"],
+    "answer": "Backlash"
+  },
+  {
+    "question": "What is the algebraic difference between the maximum limit and the corresponding basic size?",
+    "choices": [
+      "Fundamental deviation",
+      "Upper deviation",
+      "Lower deviation",
+      "Tolerance"
+    ],
+    "answer": "Upper deviation"
+  },
+  {
+    "question": "What is the algebraic difference between the minimum limit and the corresponding basic size?",
+    "choices": [
+      "Fundamental deviation",
+      "Upper deviation",
+      "Lower deviation",
+      "Tolerance"
+    ],
+    "answer": "Lower deviation"
+  },
+  {
+    "question": "What is the difference between the maximum and minimum size limits of a part?",
+    "choices": ["Allowance", "Tolerance", "Deviation", "Basic size"],
+    "answer": "Tolerance"
+  },
+  {
+    "question": "It is the capacity of a material to absorb energy when it is deformed elastically and then, upon unloading, to increase this energy. What is this capacity of a material?",
+    "choices": ["Resilience", "Toughness", "Rigidity", "Ductility"],
+    "answer": "Resilience"
+  },
+  {
+    "question": "How do you call the strain energy per unit volume required to stress a material from an unloaded state to the point of yielding?",
+    "choices": [
+      "Modulus of roughness",
+      "Modulus of elasticity",
+      "Modulus of rigidity",
+      "Modulus of resilience"
+    ],
+    "answer": "Modulus of resilience"
+  },
+  {
+    "question": "How do you call a structural member designed to support loads perpendicular to its longitudinal axis?",
+    "choices": ["Cantilever beam", "Beam", "Overhanging beam", "Column"],
+    "answer": "Beam"
+  },
+  {
+    "question": "It is a load applied transversely to longitudinal axis of member. How do you call this load?",
+    "choices": [
+      "Bending load",
+      "Combined load",
+      "Distributed load",
+      "Cyclic load"
+    ],
+    "answer": "Bending load"
+  },
+  {
+    "question": "What is a load distributed over an entire area?",
+    "choices": [
+      "Bending load",
+      "Combined load",
+      "Distributed load",
+      "Cyclic load"
+    ],
+    "answer": "Distributed load"
+  },
+  {
+    "question": "It is a design approach where no catastrophic loss can occur as a result of a component failure. What is this design approach?",
+    "choices": [
+      "Fail-safe design approach",
+      "Fault free analysis approach",
+      "Manifest danger approach",
+      "Redundancy approach"
+    ],
+    "answer": "Fail-safe design approach"
+  },
+  {
+    "question": "It is the condition of a machine element when it is completely inoperable, cannot perform its intended function adequately, or is unreliable for continued safe use. What do you call this condition?",
+    "choices": [
+      "Fail-safe condition",
+      "Failure condition",
+      "Critical condition",
+      "Salvage condition"
+    ],
+    "answer": "Failure condition"
+  },
+  {
+    "question": "How do you call a statistical data used to identify the most likely failure modes?",
+    "choices": [
+      "Finite element analysis",
+      "Fault free analysis",
+      "Failure analysis",
+      "Random analysis"
+    ],
+    "answer": "Fault free analysis"
+  },
+  {
+    "question": "It is a computational method used for solving complex shapes, such as those found in machinery; replaces the complex shape with a set of simple elements interconnected at a finite set of a specific purpose. What is this computational method?",
+    "choices": [
+      "Finite element analysis",
+      "Numerical method of analysis",
+      "Fault free analysis",
+      "Synthesis"
+    ],
+    "answer": "Finite element analysis"
+  },
+  {
+    "question": "When a hot part is cooled suddenly by quenching, there is momentarily a high temperature gradient that induces a stress gradient. Some metal parts under certain conditions crack as a result. How do you call this phenomenon?",
+    "choices": [
+      "Thermal-shock failure",
+      "Thermal fatigue",
+      "Honing",
+      "Quenching"
+    ],
+    "answer": "Thermal-shock failure"
+  },
+  {
+    "question": "How do you call the diameter of the imaginary cylinder that bounds the crest of an external thread and the roots of an internal thread?",
+    "choices": [
+      "Mean diameter",
+      "Stress diameter",
+      "Minor diameter",
+      "Major diameter"
+    ],
+    "answer": "Major diameter"
+  },
+  {
+    "question": "It is a measure of the change in length of a material subjected to a change in temperature. How do you call this property of the material?",
+    "choices": [
+      "Toughness",
+      "Coefficient of thermal expansion",
+      "Thermal conductivity",
+      "Electric Resistivity"
+    ],
+    "answer": "Coefficient of thermal expansion"
+  },
+  {
+    "question": "How do you call the circle on a gear that corresponds to the contact surface of the friction wheel?",
+    "choices": [
+      "Addendum circle",
+      "Root circle",
+      "Pitch circle",
+      "Base circle"
+    ],
+    "answer": "Pitch circle"
+  },
+  {
+    "question": "This material is the most popular alloy spring steel for conditions involving higher stresses than can be used with the high carbon steels and for use where fatigue resistance and long endurance are needed; this is also good for shock and impact loads.",
+    "choices": [
+      "Chrome silicon",
+      "Chrome vanadium",
+      "Hard-drawn wire",
+      "Oil-tempered wire"
+    ],
+    "answer": "Chrome vanadium"
+  },
+  {
+    "question": "These are gears with teeth formed on conical surfaces and are used mostly for transmitting motion between intersecting shafts. How do you call these gears?",
+    "choices": ["Spur gears", "Helical gears", "Bevel gears", "Worm gearings"],
+    "answer": "Bevel gears"
+  },
+  {
+    "question": "A bearing that primarily guides the motion of a machine member without specific regard to the direction of load application.",
+    "choices": [
+      "Journal bearing",
+      "Clearance bearing",
+      "Guide bearing",
+      "Thrust bearing"
+    ],
+    "answer": "Guide bearing"
+  },
+  {
+    "question": "Which of the following are the compositions of stainless steel 302?",
+    "choices": [
+      "18 % chromium and 8 % nickel",
+      "18 % nickel and 8 % chromium",
+      "18 % chromium and 8 % phosphor bronze",
+      "18 % bronze and 8 % vanadium"
+    ],
+    "answer": "18 % chromium and 8 % nickel"
+  },
+  {
+    "question": "These springs are made from one or more flat strips of brass, bronze, steel or other materials loaded as cantilevers or simple beam.",
+    "choices": [
+      "Torsion springs",
+      "Leaf springs",
+      "Garter springs",
+      "Drawbar springs"
+    ],
+    "answer": "Leaf springs"
+  },
+  {
+    "question": "This refers to the space between adjacent coils when the spring is compressed to its operating length.",
+    "choices": ["Coil clearance", "Pitch", "Lead", "Deflection"],
+    "answer": "Coil clearance"
+  },
+  {
+    "question": "In a lathe machine, it is the diameter of the largest workpiece it can rotate in a chuck or between centers without hitting the bed.",
+    "choices": [
+      "Chuck diameter",
+      "Swing",
+      "Distance between centers",
+      "Spindle diameter"
+    ],
+    "answer": "Swing"
+  },
+  {
+    "question": "This is a general term that refers to the mating of cylindrical parts such as bolt or a hole; it is used only when the internal member is smaller that the external member. How do you call this?",
+    "choices": ["Clearance", "Interference", "Allowance", "Tolerance"],
+    "answer": "Clearance"
+  },
+  {
+    "question": "This is a lubrication condition where non-conformal surfaces are completely separated by lubricant film and no asperities are in contact. How do you call this lubrication condition?",
+    "choices": [
+      "Elastohydrodynamic lubrication",
+      "Boundary lubrication",
+      "Hydrodynamic lubrication",
+      "Hydrostatic lubrication"
+    ],
+    "answer": "Elastohydrodynamic lubrication"
+  },
+  {
+    "question": "How do you call the flattened end of a shank, and intended to fit into a driving slot in the socket?",
+    "choices": ["Handle", "Tang", "Relief", "Tip"],
+    "answer": "Tang"
+  },
+  {
+    "question": "This material is the most popular alloy spring steel for conditions involving higher stresses than can be used with the high carbon steels and for use where fatigue resistance and long endurance are needed; this is also good for shock and impact loads.",
+    "choices": [
+      "Chrome silicon",
+      "Chrome vanadium",
+      "Hard-drawn wire",
+      "Oil-tempered wire"
+    ],
+    "answer": "Chrome vanadium"
+  },
+  {
+    "question": "For an American Standard Screw Threads, what does 6-32 UNC designate?",
+    "choices": [
+      "Size 6, 32 threads per inch, coarse thread",
+      "6 inches basic diameter, 32 threads per inch, coarse thread",
+      "Size 6, 32 threads per inch, fine thread",
+      "32 inches basic diameter, 6 threads per inch, coarse thread"
+    ],
+    "answer": "Size 6, 32 threads per inch, coarse thread"
+  },
+  {
+    "question": "How do you call the process of producing the residual compressive stress of machine parts, which is performed by directing the a high velocity stream of hardened balls or pellets at the surface to be treated.",
+    "choices": ["Nitriding", "Shot blasting", "Peening", "Tempering"],
+    "answer": "Shot blasting"
+  },
+  {
+    "question": "It is a process that produces residual compressive stress on the machine part, which uses a series of hammer blows on the surface.",
+    "choices": ["Nitriding", "Shot blasting", "Peening", "Tempering"],
+    "answer": "Peening"
+  },
+  {
+    "question": "It is a surface-hardening process for alloy steels in which the material is heated to 950 oF in a nitrogen atmosphere, typically ammonia gas, followed by slow cooling.",
+    "choices": ["Quenching", "Nitriding", "Shot blasting", "Peening"],
+    "answer": "Nitriding"
+  },
+  {
+    "question": "Which of the following gases is typically used in nitriding process of surface hardening?",
+    "choices": [
+      "Nitrogen gas",
+      "Carbon dioxide",
+      "Ammonia gas",
+      "Hydrogen gas"
+    ],
+    "answer": "Ammonia gas"
+  },
+  {
+    "question": "Which of the following is the benefit in using nitriding as a surface-hardening process for alloy steels?",
+    "choices": [
+      "Improvement of endurance strength, 50 % or more",
+      "Improvement of endurance strength, less than 50 %",
+      "Improvement of endurance strength, more than 50 %",
+      "80 % improvement on the endurance strength"
+    ],
+    "answer": "Improvement of endurance strength, 50 % or more"
+  },
+  {
+    "question": "How do you call the level of stress that the part will be permitted to see under operating conditions?",
+    "choices": [
+      "Yield stress",
+      "Endurance stress",
+      "Design stress",
+      "Ultimate stress"
+    ],
+    "answer": "Design stress"
+  },
+  {
+    "question": "Which of the following column formulas is applicable to cast iron columns?",
+    "choices": [
+      "Euler’s formula",
+      "J.B.Johnson’s formula",
+      "Secant formula",
+      "Straight line formula"
+    ],
+    "answer": "Straight line formula"
+  },
+  {
+    "question": "Which of the following ferrous metals has the lowest carbon content?",
+    "choices": ["Carbon steel", "Wrought iron", "Cast iron", "SAE 4140"],
+    "answer": "Wrought iron"
+  },
+  {
+    "question": "If stiffness is the main criterion in selecting a material, which of the following is the most economical choice?",
+    "choices": [
+      "SAE 3130",
+      "SAE 1020",
+      "SAE 6150",
+      "AISI 301, ¼ hard stainless steel"
+    ],
+    "answer": "SAE 1020"
+  },
+  {
+    "question": "Which of the following materials can easily be machined?",
+    "choices": ["AISI C1020", "AISI C1112", "AISI C1030", "AISI C1010"],
+    "answer": "AISI C1112"
+  },
+  {
+    "question": "Wood is an _ material; that is, its mechanical properties are unique and independent in three mutually perpendicular directions—longitudinal, radial, and tangential.",
+    "choices": ["Isotopic", "Anisotropic", "Orthotropic", "Any of these"],
+    "answer": "Orthotropic"
+  },
+  {
+    "question": "The principal raw materials used in steelmaking are iron ore, coal, and __________.",
+    "choices": ["Coke", "Limestone", "Slag", "Flux"],
+    "answer": "Limestone"
+  },
+  {
+    "question": "The steel part is heated to a temperature of 900–1150 degrees F in an atmosphere of ammonia gas and dissociated ammonia for an extended period of time that depends on the case depth desired.",
+    "choices": ["Nitriding", "Carburizing", "Case hardening", "Cyaniding"],
+    "answer": "Nitriding"
+  },
+  {
+    "question": "The primary application of high-speed steels is to tools used for the working of metals __________.",
+    "choices": [
+      "that are too hard",
+      "at high cutting speeds",
+      "that are too soft",
+      "at slow cutting speeds"
+    ],
+    "answer": "at high cutting speeds"
+  },
+  {
+    "question": "In gearing, this is the ratio of the arc of action to the circular pitch.",
+    "choices": ["Speed ratio", "Arc ratio", "Contact ratio", "Gear ratio"],
+    "answer": "Contact ratio"
+  },
+  {
+    "question": "Flywheel arms are usually of elliptical cross-section, the strength of the arms should equal _____the strength of the shaft in torsion.",
+    "choices": ["Three-fourths", "One-half", "Two-thirds", "One-fourth"],
+    "answer": "Three-fourths"
+  },
+  {
+    "question": "This alloy (nickel, iron, chromium, cobalt is a nonmagnetic, corrosion resistant material suitable for subzero temperatures and temperatures up to about 750 degrees F., provided that torsional stresses are kept below 75,000 pounds per square inch. It is precipitation-hardened to produce hardnesses of 48 to 50 Rockwell C and is used in watch and instrument springs.",
+    "choices": ["Elinvar", "Monel", "Inconel", "Dynavar"],
+    "answer": "Dynavar"
+  },
+  {
+    "question": "To ensure an adequate factor of safety in the design of a shaft with standard keyway, the key width should be about:",
+    "choices": [
+      "One half of the shaft diameter",
+      "One fourth of the shaft diameter",
+      "One eighth of the shaft diameter",
+      "One third of the shaft diameter"
+    ],
+    "answer": "One fourth of the shaft diameter"
+  },
+  {
+    "question": "What is the property of matter that causes it to resist any change in its motion or state of rest?",
+    "choices": ["Momentum", "Kinetic Energy", "Inertia", "Section modulus"],
+    "answer": "Inertia"
+  },
+  {
+    "question": "This is defined as the cutting time to reach a predetermined wear, called the tool wear criterion.",
+    "choices": ["Wear duration", "Cycle time", "Tool life", "Life cycle"],
+    "answer": "Tool life"
+  },
+  {
+    "question": "Which of the following G-codes refers to rapid traverse in CNC machining?",
+    "choices": ["G00", "G01", "G02", "G03"],
+    "answer": "G00"
+  },
+  {
+    "question": "An acronym in CNC machining which means access of the machine operator to insert machining instructions directly into the NC machine control system via push buttons, pressure pads, knobs, or other arrangements.",
+    "choices": ["FMS", "FMC", "CIM", "MDI"],
+    "answer": "MDI"
+  },
+  {
+    "question": "The variable polarity plasma arc (VPPA) process was developed for welding metals that form an oxide skin, such as",
+    "choices": ["Steel", "Copper", "Cast iron", "Aluminum"],
+    "answer": "Aluminum"
+  },
+  {
+    "question": "Which of the following statements is NOT true?",
+    "choices": [
+      "The terms “polishing” and “buffing” are sometimes applied to similar classes of work in different plants.",
+      "Polishing is any operation performed with wheels having abrasive glued to the working surfaces",
+      "Buffing is done with wheels having the abrasive applied loosely",
+      "Polishing is not so harsh an operation as buffing, and it is commonly utilized to obtain very fine surfaces having a “grainless finish.”"
+    ],
+    "answer": "Polishing is not so harsh an operation as buffing, and it is commonly utilized to obtain very fine surfaces having a “grainless finish.”"
+  },
+  {
+    "question": "If the steel is strongly deoxidized by the addition of deoxidizing elements, no gas is evolved, and the steel is technically called __because it lies quietly in the molds.",
+    "choices": ["Quenched", "Annealed", "Killed Steal", "Tempered"],
+    "answer": "Killed Steal"
+  },
+  {
+    "question": "Stainless steels generally contain at least __ per cent chromium, with or without other elements.",
+    "choices": ["18", "16", "12", "10"],
+    "answer": "10"
+  },
+  {
+    "question": "What grades of stainless steels are nonmagnetic in the annealed condition, although some may become slightly magnetic after cold working?",
+    "choices": [
+      "Ferritic grades",
+      "Austenitic grades",
+      "Martensitic grades",
+      "Any of these"
+    ],
+    "answer": "Austenitic grades"
+  },
+  {
+    "question": "These steels (SAE Steels 1006, 1008, 1010, 1015) are the lowest carbon steels of the plain carbon type, and are selected where ______ is the primary requisite of the user.",
+    "choices": ["Strength", "Cold formability", "Ductility", "Durability"],
+    "answer": "Cold formability"
+  },
+  {
+    "question": "Steel is heated to a temperature above the critical range, after which it is cooled in still air to produce a generally fine pearlite structure. The purpose is to promote uniformity of structure and properties after a hot-working operation such as forging or extrusion. What was the heat treatment involved?",
+    "choices": ["Annealing", "Normalizing", "Tempering", "Stress relieving"],
+    "answer": "Normalizing"
+  },
+  {
+    "question": "At certain speeds called the critical speeds, a rotating shaft will become dynamically unstable and the resulting vibrations and deflections can result in damage not only to the shaft but to the machine of which it is a part. At what percentage of the critical speed should a shaft be safely operated?",
+    "choices": [
+      "Plus or minus 20%",
+      "Plus or minus 5 %",
+      "Plus or minus 10 %",
+      "Any of these"
+    ],
+    "answer": "Plus or minus 20%"
+  },
+  {
+    "question": "This is the most widely used of all spring materials for small springs operating at temperatures up to about 250 degrees F. It is tough, has a high tensile strength, and can withstand high stresses under repeatedloading.",
+    "choices": [
+      "Music wire",
+      "Hard drawn spring wire",
+      "Oil tempered spring wire",
+      "Stainless steel spring wire"
+    ],
+    "answer": "Music wire"
+  },
+  {
+    "question": "It is an acronym in machining. This process uses an electrode to remove metal from a workpiece by generating electric sparks between conducting surfaces.",
+    "choices": ["MIG", "GMAW", "EDM", "CNC"],
+    "answer": "EDM"
+  },
+  {
+    "question": "In die casting accurate parts made of steel, what shrinkage allowance in inches per inch is recommended?",
+    "choices": ["0.011", "0.022", "0.033", "0.044"],
+    "answer": "0.022"
+  },
+  {
+    "question": "These are gears used to connect shafts that are non-intersecting and non-parallel. They are a cross between spiral bevel gears and worm gears.",
+    "choices": [
+      "Helical gears",
+      "Hypoid gears",
+      "Planetary gears",
+      "Bevel gears"
+    ],
+    "answer": "Hypoid gears"
+  },
+  {
+    "question": "This is a type of seal used where some form of relative motion occurs between rigid parts of an assembly.",
+    "choices": ["Gasket", "Distorted seal", "Vibratory seal", "Dynamic seal"],
+    "answer": "Dynamic seal"
+  },
+  {
+    "question": "It is a lubrication for roller chains wherein the lubricant is supplied by a circulating pump capable of supplying the chain drive with a continuous flow of oil inside the chain loop evenly across the chain width and directly at the slack strand.",
+    "choices": [
+      "Oil stream lubrication",
+      "Bath lubrication",
+      "Drip lubrication",
+      "Recirculated lubrication"
+    ],
+    "answer": "Oil stream lubrication"
+  },
+  {
+    "question": "In manufacturing, this is the operation of cutting out flat area to some desired shape and is usually the first step in a series of operation.",
+    "choices": ["Turning", "Facing", "Blanking", "Finishing"],
+    "answer": "Blanking"
+  },
+  {
+    "question": "An M-code which generally refers to start spindle rotation in a clockwise direction.",
+    "choices": ["M03", "M04", "M05", "M06"],
+    "answer": "M03"
+  },
+  {
+    "question": "A final operation to improve the polish of a metal and to bring out the maximum luster.",
+    "choices": ["Finishing", "Surface grinding", "Broaching", "Buffing"],
+    "answer": "Buffing"
+  },
+  {
+    "question": "Machining operations with the proper application of a cutting fluid generally has the following attributes except:",
+    "choices": [
+      "Higher cutting speeds",
+      "Higher feed rates",
+      "Lengthened tool life",
+      "Higher cutting accuracy"
+    ],
+    "answer": "Higher cutting accuracy"
+  },
+  {
+    "question": "A material of construction (only developed commercially in the late 1940’s concurrently with zirconium) offers the unique combination of wide-ranging corrosion resistance, low density, and high strength.",
+    "choices": ["Tungsten", "Titanium", "Vanadium", "Molybdenum"],
+    "answer": "Titanium"
+  },
+  {
+    "question": "Which of the following is the lightest of all structural metals?",
+    "choices": ["Aluminum", "Copper", "Magnesium", "Manganese"],
+    "answer": "Magnesium"
+  },
+  {
+    "question": "This process reduces internal stresses, caused by machining, cold working, or welding, by heating the steel to a temperature below the critical range and holding it there long enough to equalize the temperature throughout the piece.",
+    "choices": ["Annealing", "Normalizing", "Tempering", "Stress Relieving"],
+    "answer": "Stress Relieving"
+  },
+  {
+    "question": "A free-cutting steel has a higher ______ content than comparable carbon steels.",
+    "choices": ["Sulfur", "Cobalt", "Nickel", "Chromium"],
+    "answer": "Sulfur"
+  },
+  {
+    "question": "This property designates the steel's resistance to the softening effect of elevated temperature.",
+    "choices": ["Hot hardness", "Machinability", "Toughness", "Elasticity"],
+    "answer": "Hot hardness"
+  },
+  {
+    "question": "Use of hard solders, silver solders and smelter solders which have silver, copper, or nickel bases and have melting points above 800 degrees F is known as_______",
+    "choices": ["Soldering", "Welding", "Brazing", "Any of these"],
+    "answer": "Brazing"
+  },
+  {
+    "question": "In braking, the term backstop refers to a brake that is:",
+    "choices": [
+      "Self locking in one direction",
+      "Self energizing",
+      "Self locking in both directions",
+      "Any of these"
+    ],
+    "answer": "Self locking in one direction"
+  },
+  {
+    "question": "How do you call a fixed crane consisting of a supported vertical member from which extends a horizontal swinging arm carrying a trolley hoist or other hoisting mechanism?",
+    "choices": ["Jib crane", "Gantry crane", "Overhead crane", "Tower crane"],
+    "answer": "Jib crane"
+  },
+  {
+    "question": "This iron is also known as a ductile cast iron. How do you call this iron?",
+    "choices": [
+      "Malleable iron",
+      "Nodular cast iron",
+      "White cast iron",
+      "Gray cast iron"
+    ],
+    "answer": "Nodular cast iron"
+  },
+  {
+    "question": "It is the ability to deform plastically to compensate for irregularities in bearing assembly. How do you call this?",
+    "choices": ["Plasticity", "Conformability", "Embeddability", "Elasticity"],
+    "answer": "Conformability"
+  },
+  {
+    "question": "A material of construction (only developed commercially in the late 1940’s concurrently with zirconium) offers the unique combination of wide ranging corrosion resistance, low density, and high strength.",
+    "choices": ["Titanium", "Tungsten", "Vanadium", "Molybdenum"],
+    "answer": "Titanium"
+  },
+  {
+    "question": "Newton’s law of motion that describes that if a force acts to change the state of motion of the body, the body offers a resistance equal and directly opposite to the force.",
+    "choices": [
+      "Second law",
+      "Third law",
+      "First law",
+      "Universal gravitation"
+    ],
+    "answer": "Third law"
+  },
+  {
+    "question": "These are steels most widely used of engineering materials. No other material offers comparable versatility for product design.",
+    "choices": [
+      "Wrought steels",
+      "Low carbon steels",
+      "Medium carbon steels",
+      "Tool steels"
+    ],
+    "answer": "Wrought steels"
+  },
+  {
+    "question": "Which of the following steels does not readily respond to heat treatment?",
+    "choices": ["SAE 1045", "AISI 6150", "SAE 1020", "SAE 1095"],
+    "answer": "SAE 1020"
+  },
+  {
+    "question": "What is an element added to steel to improve its machinability?",
+    "choices": ["Carbon", "Sulfur", "Cobalt", "Chromium"],
+    "answer": "Cobalt"
+  },
+  {
+    "question": "Which of the following information is FALSE regarding steel that has increased carbon content?",
+    "choices": [
+      "Its strength is increased",
+      "Its BHN becomes greater",
+      "Its ductility is improved",
+      "Its % reduction or elongation is reduced"
+    ],
+    "answer": "Its ductility is improved"
+  },
+  {
+    "question": "In manufacturing, what is the operation of cutting out flat area to some desired shape and is usually the first step in a series of operation?",
+    "choices": ["Turning", "Blanking", "Facing", "Finishing"],
+    "answer": "Blanking"
+  },
+  {
+    "question": "This is a metal joining process which uses a non-ferrous filler metal with a melting point below that of the base metals but above 800F. How do you call this process?",
+    "choices": ["Brazing", "Arc welding", "Soldering", "Riveting"],
+    "answer": "Brazing"
+  },
+  {
+    "question": "Rivet holes are made usually ____ inch larger in diameter than the nominal diameter of the rivet.",
+    "choices": ["1/8", "1/16", "¼", "1/32"],
+    "answer": "1/16"
+  },
+  {
+    "question": "Which of the following equations/formulas does not belong to the group?",
+    "choices": [
+      "Lame’s equation",
+      "Euler’s formula",
+      "J. B. Johnson’s equation",
+      "Secant formula"
+    ],
+    "answer": "Lame’s equation"
+  },
+  {
+    "question": "In CNC programming, which of the following G code commands is for dwell or rest?",
+    "choices": ["G01", "G04", "G03", "G02"],
+    "answer": "G04"
+  },
+  {
+    "question": "In CNC programming, which of the following M code commands is for a tool change?",
+    "choices": ["M06", "M04", "M03", "M10"],
+    "answer": "M06"
+  },
+  {
+    "question": "Which of the following is a material description referring to unique properties in three mutually perpendicular planes?",
+    "choices": ["Isotropy", "Anisotropy", "Orthotropy", "Isometry"],
+    "answer": "Orthotropy"
+  },
+  {
+    "question": "The true stress-strain curve in a stress-stress diagram appears to be:",
+    "choices": [
+      "Lower than the engineering stress-strain curve",
+      "Higher than the engineering stress-strain curve",
+      "The same as the engineering stress strain curve",
+      "Symmetrical with the engineering stress-strain curve"
+    ],
+    "answer": "Higher than the engineering stress-strain curve"
+  },
+  {
+    "question": "This is a hardening treatment for steels having low carbon content.",
+    "choices": ["Tempering", "Case hardening", "Normalizing", "Anodizing"],
+    "answer": "Case hardening"
+  },
+  {
+    "question": "What is a manufacturing process used for the production of aluminum?",
+    "choices": ["Forging", "Extrusion", "Blow molding", "Injection molding"],
+    "answer": "Extrusion"
+  },
+  {
+    "question": "This refers to a loss of material from the interface of two metal surfaces that are in intimate contact. How do you call this?",
+    "choices": ["Interfacing", "Interference", "Wear", "Fretting corrosion"],
+    "answer": "Fretting corrosion"
+  },
+  {
+    "question": "This is a type of fit that requires heating the hub to expand its inside diameter. What do you call this type of fit?",
+    "choices": ["Expansion fit", "Force fit", "Shrink fit", null],
+    "answer": "Shrink fit"
+  },
+  {
+    "question": "AFBMA is an acronym for an association involved in what machine elements?",
+    "choices": [
+      "Ball and roller bearings",
+      "Journal bearings",
+      "Flat belts and other belt types",
+      "Any type of gears"
+    ],
+    "answer": "Ball and roller bearings"
+  },
+  {
+    "question": "What is the general description for mild steel?",
+    "choices": [
+      "Medium carbon steel",
+      "Low carbon steel",
+      "High carbon steel",
+      "Cold rolled steel"
+    ],
+    "answer": "Low carbon steel"
+  },
+  {
+    "question": "Von Mises theory is the other term used for",
+    "choices": [
+      "Maximum principal stress theory",
+      "Maximum shear-stress theory",
+      "Octahedral shear-stress theory",
+      "Energy distortion theory"
+    ],
+    "answer": "Maximum shear-stress theory"
+  },
+  {
+    "question": "A type of key in which width and thickness are equal is called as:",
+    "choices": ["Flat key", "Square key", "Pin key", "Barth key"],
+    "answer": "Square key"
+  },
+  {
+    "question": "In the design of key, the typical hub lengths are in accordance with the following relation where D is shaft diameter.",
+    "choices": [
+      "1.25D to 2.4D",
+      "0.5D to 1.25D",
+      "2.4D to 3.5D",
+      "Depends on shaft diameter"
+    ],
+    "answer": "1.25D to 2.4D"
+  },
+  {
+    "question": "A coupling that allows axial flexibility/movement in the operation. Made of alternate bolting of steel, leather, fabric and/or plastic material into two flanges.",
+    "choices": [
+      "Flexible disk coupling",
+      "Flexible Oldham coupling",
+      "Flexible toroidal spring coupling",
+      "Elastic material bonded coupling"
+    ],
+    "answer": "Flexible toroidal spring coupling"
+  },
+  {
+    "question": "It is a machine member that supports another part that rotates, slides, or oscillates in or on it.",
+    "choices": ["Pulley", "Key", "Bearing", "Shaft"],
+    "answer": "Bearing"
+  },
+  {
+    "question": "For a planar four-bar linkage, the sum of the shortest and longest lengths cannot be greater than the sum of the remaining two link lengths if there is to be a continuous relative rotation between two members.” How do you call the preceding statement?",
+    "choices": [
+      "Grubler’s Law",
+      "Coriolli’s Law",
+      "Grashof’s Law",
+      "Freudentein’s Law"
+    ],
+    "answer": "Grashof’s Law"
+  },
+  {
+    "question": "Which of the following is not true for an instant center or centro of planar linkages?",
+    "choices": [
+      "Centro is a point common to two bodies having the same velocity in each.",
+      "Centro is a point in one body about which another body does not rotate.",
+      "Centro is a point in one body about which another body actually turns.",
+      "Centro is a point in one body about which another body tends to turn."
+    ],
+    "answer": "Centro is a point in one body about which another body does not rotate."
+  },
+  {
+    "question": "This is the most common work holding device of a shaper machine with the base graduated in degrees that make it possible to swivel any angle. What is this working device?",
+    "choices": [
+      "Shaper vise",
+      "Parallel bars and hold down bars",
+      "Lathe holder",
+      "Swivel head"
+    ],
+    "answer": "Shaper vise"
+  },
+  {
+    "question": "This is a shaper operation, which is shaping the given stock and having the excess material remain with a tolerable allowance for finishing. How do you call this operation?",
+    "choices": ["Roughing", "Finishing", "Angular cutting", "Contouring"],
+    "answer": "Roughing"
+  },
+  {
+    "question": "How do you call a cutting tool that has two or more cutting edges as in drill presses and milling machine cutters?",
+    "choices": [
+      "Grinder",
+      "Single-point cutting tool",
+      "Multi-point cutting tool",
+      "Two point cutting tool"
+    ],
+    "answer": "Multi-point cutting tool"
+  },
+  {
+    "question": "This is the trade name for a patented alloy made up chiefly of cobalt, chromium, and tungsten in varying proportions. What is this trade name?",
+    "choices": ["Stellite", "Carboloy", "Stainless steel", "Copper"],
+    "answer": "Stellite"
+  },
+  {
+    "question": "It is called as the transformation of concepts and ideas into useful machinery. What is this?",
+    "choices": ["Design", "Synthesis", "Analysis", "Theorem"],
+    "answer": "Design"
+  },
+  {
+    "question": "This is a combination of mechanisms and other components that transforms, transmits, or uses energy, load, or motion for a specific purpose. How do you call this?",
+    "choices": ["Mechanism", "Engine", "Machine", "Linkage"],
+    "answer": "Machine"
+  },
+  {
+    "question": "It is defined as synergistic collection of machine elements; synergistic because as a design it represents an idea or concept greater than the sum of the individual parts. What is this system?",
+    "choices": [
+      "System of mechanisms",
+      "Mechanical system",
+      "Design system",
+      "Expert system"
+    ],
+    "answer": "Mechanical system"
+  },
+  {
+    "question": "It may be defined as the displacement per length produced in a solid and as the result of stress. How do you call this?",
+    "choices": ["Deformation", "Elongation", "Strain", "Stress"],
+    "answer": "Strain"
+  },
+  {
+    "question": "What is the combination of applied normal and shear stresses that produces maximum principal normal stress or minimum principal normal stress, with a third principal stress between or equivalent to the extremes?",
+    "choices": [
+      "Principal shear stress",
+      "Maximum shear stress",
+      "Principal normal stress",
+      "Bending and shear stresses"
+    ],
+    "answer": "Principal shear stress"
+  },
+  {
+    "question": "How do you call a load that is applied transversely to longitudinal axis of member?",
+    "choices": [
+      "Combined loads",
+      "Concentrated load",
+      "Bending load",
+      "Distributed load"
+    ],
+    "answer": "Bending load"
+  },
+  {
+    "question": "What is the ability of the material to absorb energy up to fracture?",
+    "choices": ["Toughness", "Rigidity", "Resilience", "Stiffness"],
+    "answer": "Toughness"
+  },
+  {
+    "question": "What is the other term for the Maximum-Shear-Stress Theory, as a failure prediction theory?",
+    "choices": [
+      "von Mises criterion",
+      "Tresca yield criterion",
+      "Coulomb-Mohr theory",
+      "Modified Mohr theory"
+    ],
+    "answer": "Tresca yield criterion"
+  },
+  {
+    "question": "It is a failure prediction theory, which states that a part subjected to any combination of loads will fail (by yielding or fracturing) whenever the maximum shear stress exceeds a critical value. How do you call this failure prediction theory?",
+    "choices": [
+      "Distortion-energy theory",
+      "Maximum-shear-stress theory",
+      "Internal Friction",
+      "Modified Mohr theory"
+    ],
+    "answer": "Maximum-shear-stress theory"
+  },
+  {
+    "question": "This is a theory in cyclic and impact loading, which states that damage at any stress level, is proportional to number of cycles. What is this theory commonly called?",
+    "choices": [
+      "Miner’s Rule",
+      "Goodman Rule",
+      "Paris Power Law",
+      "Manson-Coffin Relationship"
+    ],
+    "answer": "Miner’s Rule"
+  },
+  {
+    "question": "This is a lubrication where the load-carrying surfaces of the bearing are separated by a relatively thick film of lubricant, so as to prevent metal-to-metal contact; and where the stability of the film can be explained by the laws of fluid mechanics. How do you call this type of lubrication?",
+    "choices": [
+      "Hydrostatic lubrication",
+      "Elastohydrodynamic lubrication",
+      "Hydrodynamic lubrication",
+      "Boundary lubrication"
+    ],
+    "answer": "Hydrodynamic lubrication"
+  },
+  {
+    "question": "How do call the speed at which a rotating shaft becomes dynamically unstable?",
+    "choices": [
+      "Normal speed",
+      "Variable speed",
+      "Critical speed",
+      "Average speed"
+    ],
+    "answer": "Critical speed"
+  },
+  {
+    "question": "How do you call a ball bearing with race containing pronounced groove for rolling elements?",
+    "choices": [
+      "Crown bearing",
+      "Conrad bearing",
+      "Angular-contact bearing",
+      "Cylindrical bearing"
+    ],
+    "answer": "Conrad bearing"
+  },
+  {
+    "question": "This is a machining process for producing internal straight cylindrical surface or profiles, with process characteristics and tooling similar to those for turning operations. What is this machining process?",
+    "choices": ["Boring", "Drilling", "Reaming", "Milling"],
+    "answer": "Boring"
+  },
+  {
+    "question": "What is a set of specification for parts, materials, or processes intended to achieve uniformity, efficiency, and a specified quality?",
+    "choices": ["Code", "Standard", "Law", "Theorem"],
+    "answer": "Standard"
+  },
+  {
+    "question": "This is a set of specifications for the analysis, design, manufacture, and construction of something; the purpose of which is to achieve a specified degree of safety, efficiency, and performance or quality. How do you call this set of specifications?",
+    "choices": ["Code", "Standard", "Law", "Theorem"],
+    "answer": "Code"
+  },
+  {
+    "question": "How do call the size to which limits or deviations is assigned and is the same for both members of the fit; it is the exact theoretical size?",
+    "choices": ["Nominal size", "Basic size", "Maximum size", "Minimum size"],
+    "answer": "Basic size"
+  },
+  {
+    "question": "What is the algebraic difference between a size and the corresponding basic size?",
+    "choices": ["Tolerance", "Allowance", "Deviation"],
+    "answer": "Deviation"
+  },
+  {
+    "question": "What is the difference between the maximum and minimum size limits of a part?",
+    "choices": ["Allowance", "Tolerance", "Deviation", "Limit"],
+    "answer": "Tolerance"
+  },
+  {
+    "question": "This is used either for very accurate angular measurements or for locating work at a given angle; is used together with precision gage blocks. What is this?",
+    "choices": ["Protractor", "Compound rest", "Sine bar", "Micrometer"],
+    "answer": "Sine bar"
+  }
+]
