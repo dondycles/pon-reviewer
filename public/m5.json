@@ -1,0 +1,1372 @@
+[
+  {
+    "question": "The hacksaw blade should be placed in the frame with:",
+    "choices": [
+      "the teeth pointing forward",
+      "the teeth pointing backward",
+      "one end looser than the other end",
+      "the teeth facing in any direction"
+    ],
+    "answer": "the teeth pointing forward"
+  },
+  {
+    "question": "When cutting a long thin piece of metal:",
+    "choices": [
+      "turn the blade upside down the frame",
+      "turn the blade at right angles to the frame",
+      "use a blade with fewer teeth per inch",
+      "set the blade in the frame with the teeth facing you"
+    ],
+    "answer": "turn the blade at right angles to the frame"
+  },
+  {
+    "question": "A hacksaw blade with 18 teeth per inch is best suited for cutting:",
+    "choices": ["solid stock", "cast iron", "aluminum", "any of the above"],
+    "answer": "any of the above"
+  },
+  {
+    "question": "A coolant is usually used when cutting material in a power hacksaw to:",
+    "choices": [
+      "absorb the heat of friction",
+      "prevent the blade from overheating",
+      "prevent the blade from losing its temper",
+      "all of the above"
+    ],
+    "answer": "all of the above"
+  },
+  {
+    "question": "A hacksaw blade with 32 TPI is suited for cutting:",
+    "choices": [
+      "small tubing",
+      "conduct",
+      "sheet metal under 18 gauge",
+      "any of the above"
+    ],
+    "answer": "any of the above"
+  },
+  {
+    "question": "For filing lead or Babbitt, use a:",
+    "choices": [
+      "vixen file",
+      "mill file",
+      "sheet metal under 18 gauge",
+      "any of the above"
+    ],
+    "answer": "any of the above"
+  },
+  {
+    "question": "It moves on the lathe bed with cutting tool according to the rotation of lead screw or by hand traversing wheel",
+    "choices": ["apron", "compound rest", "mandrel", "saddle"],
+    "answer": "saddle"
+  },
+  {
+    "question": "It acts the carriage or compound rest through the mechanism lifted inside the apron",
+    "choices": ["apron", "compound", "mandrel", "saddle"],
+    "answer": "apron"
+  },
+  {
+    "question": "It gives the cutting tool longitudinal feed, cross feed or carriers",
+    "choices": ["angular feed", "apron", "compound rest", "saddle"],
+    "answer": "compound rest"
+  },
+  {
+    "question": "The center, which is fitted in head stock spindle, called",
+    "choices": ["above center", "below center", "dead center", "live center"],
+    "answer": "live center"
+  },
+  {
+    "question": "A center, which is fitted in tail stock spindle called",
+    "choices": ["above center", "below center", "dead center", "live center"],
+    "answer": "dead center"
+  },
+  {
+    "question": "Which of the following gives shearing action?",
+    "choices": ["front clearance", "side clearance", "slide rake", "top rake"],
+    "answer": "top rake"
+  },
+  {
+    "question": "Which of the following information is necessary when ordering a file?",
+    "choices": ["size (length)", "shape", "type of teeth", "all of the above"],
+    "answer": "all of the above"
+  },
+  {
+    "question": "Never use a file:",
+    "choices": ["that is dirty", "w/o a handle", "w/o oiling", "with a tang"],
+    "answer": "w/o a handle"
+  },
+  {
+    "question": "The best file to use when finishing sharp corners or slots and grooves is the:",
+    "choices": ["mill file", "square", "knife file", "jewelers file"],
+    "answer": "knife file"
+  },
+  {
+    "question": "On a lathe the dead center is used after:",
+    "choices": ["boring", "center-drilling", "drilling", "reaming"],
+    "answer": "center-drilling"
+  },
+  {
+    "question": "Eleven – sixteenths of an inch expressed as a decimal is:",
+    "choices": [".6785", ".7685", ".6875", ".6578"],
+    "answer": ".6875"
+  },
+  {
+    "question": "The markings on a micrometer barrel are:",
+    "choices": [".025” apart", ".250” apart", ".0025” apart", "2.5” apart"],
+    "answer": ".025” apart"
+  },
+  {
+    "question": "It measures the slope of the top surface of the tool to the side in a direction perpendicular to the longitudinal axis",
+    "choices": [
+      "end relief angle",
+      "side cutting edge angle",
+      "side rake angle",
+      "side relief edge angle"
+    ],
+    "answer": "side rake angle"
+  },
+  {
+    "question": "It is used for holding straight shank drills in the spindle to the machine when drilling",
+    "choices": ["chuck key", "drill chuck", "floating holder", "magic chuck"],
+    "answer": "drill chuck"
+  },
+  {
+    "question": "A reamer is used to correct the",
+    "choices": [
+      "finish and depth of a drilled hole",
+      "finish and position of a drilled hole",
+      "size and position of a drilled hole",
+      "size and roundness of a drilled hole"
+    ],
+    "answer": "size and roundness of a drilled hole"
+  },
+  {
+    "question": "Twist drills are usually considered suitable machining holes having a length less than",
+    "choices": [
+      "two times their diameter",
+      "five times their diameter",
+      "ten times their diameter",
+      "twenty times their diameter"
+    ],
+    "answer": "five times their diameter"
+  },
+  {
+    "question": "In quick return mechanism of shaping machine the ram stroke length is proportional to",
+    "choices": ["crank length", "ram length", "slotter arm length", "stroke"],
+    "answer": "crank length"
+  },
+  {
+    "question": "Type and number of bearings to be used for spindles of machine tool depend on",
+    "choices": [
+      "type of spindle",
+      "type of machine tool",
+      "load on spindle",
+      "load on the bearing"
+    ],
+    "answer": "load on the bearing"
+  },
+  {
+    "question": "When the dial on the cross-feed is turned .010”, you remove from diameter of the stock being cut:",
+    "choices": [".010", ".020", ".005", ".015"],
+    "answer": ".010"
+  },
+  {
+    "question": "The flexible type hacksaw blade is best suited for work on:",
+    "choices": ["channel iron", "tubing", "aluminum", "any of the above"],
+    "answer": "any of the above"
+  },
+  {
+    "question": "A flexible back hacksaw blade is one that has:",
+    "choices": [
+      "only the teeth",
+      "flexible ends",
+      "a movable back",
+      "any of the above"
+    ],
+    "answer": "any of the above"
+  },
+  {
+    "question": "A hacksaw blade with 24 TPI is best suitable for cutting:",
+    "choices": [
+      "tubing",
+      "sheet metal over 18 gage",
+      "brass and copper",
+      "any of the above"
+    ],
+    "answer": "any of the above"
+  },
+  {
+    "question": "An all hard hacksaw blade is one that:",
+    "choices": [
+      "has a hard back and flexible teeth",
+      "has a flexible back and hard teeth",
+      "has the entire bade hardened",
+      "will only fit a solid frame hacksaw"
+    ],
+    "answer": "has the entire bade hardened"
+  },
+  {
+    "question": "A hacksaw blade can be placed in a frame in:",
+    "choices": [
+      "two positions",
+      "four positions",
+      "one position",
+      "three positions"
+    ],
+    "answer": "four positions"
+  },
+  {
+    "question": "what should be the top rake angle to cut brass?",
+    "choices": ["0", "15", "30", "45"],
+    "answer": "0"
+  },
+  {
+    "question": "It is a long, tapered punch used for loosening straight pins, taper pins, rivets and other small parts being disassembled",
+    "choices": ["center punch", "drift punch", "drive-pin punch", "hand punch"],
+    "answer": "drift punch"
+  },
+  {
+    "question": "A tool used for turning nuts or bolts",
+    "choices": ["c-clamps", "long nose", "plier", "wrench"],
+    "answer": "wrench"
+  },
+  {
+    "question": "Used to permit lever shift for vertical travel of rail",
+    "choices": ["ball crank", "clamp plates", "plumb bob", "plunger knob"],
+    "answer": "plunger knob"
+  },
+  {
+    "question": "It is mounted on the top of the column and is guided in perfect alignment by the machined dovetailed surface",
+    "choices": ["arbor", "over arm", "saddle", "spindle"],
+    "answer": "over arm"
+  },
+  {
+    "question": "Name of mechanism, which a welding operator holds during gas welding and at the end of which the gases are burred to perform the various gas welding operation.",
+    "choices": ["hose", "gage", "switch", "torch"],
+    "answer": "torch"
+  },
+  {
+    "question": "A scriber is made from:",
+    "choices": [
+      "carbon steel",
+      "cold-rolled steel",
+      "tool steel",
+      "hot-rolled steel"
+    ],
+    "answer": "tool steel"
+  },
+  {
+    "question": "Before applying layout blue on a piece of metal, it must be:",
+    "choices": ["roughened", "heated", "cleaned", "cold"],
+    "answer": "cleaned"
+  },
+  {
+    "question": "A drill bit has:",
+    "choices": ["4 flutes", "3 flutes", "2 flutes", "no flutes"],
+    "answer": "2 flutes"
+  },
+  {
+    "question": "The alignment of coupling faces can be checked by:",
+    "choices": [
+      "using an inside micrometer",
+      "inserting a thermocouple",
+      "inserting a feeler gage between the coupling faces at various points around the circumference",
+      "rotating and measuring to nearest permanent fitting"
+    ],
+    "answer": "inserting a feeler gage between the coupling faces at various points around the circumference"
+  },
+  {
+    "question": "A piece of cast iron held against an emery wheel will give off:",
+    "choices": [
+      "dull yellow sparks",
+      "bright shiny sparks",
+      "red sparks",
+      "no sparks"
+    ],
+    "answer": "dull yellow sparks"
+  },
+  {
+    "question": "When cutting material in a lathe, the softer the material being cut, the tool bit should have:",
+    "choices": [
+      "more top rake",
+      "less top rake",
+      "double top rake",
+      "any of the above"
+    ],
+    "answer": "any of the above"
+  },
+  {
+    "question": "After grinding a tool bit, the cutting edge should be:",
+    "choices": [
+      "case-hardened",
+      "rubbed with emery cloth",
+      "stoned with an oilstone",
+      "rubbed with crocus cloth"
+    ],
+    "answer": "stoned with an oilstone"
+  },
+  {
+    "question": "It is a hole revolving cutter or grinding wheel for mounting it on an arbor.",
+    "choices": ["arbor hole", "hole saw", "star drill", "star saw"],
+    "answer": "arbor hole"
+  },
+  {
+    "question": "A machine in which materials are pulverized between the two toothed metal disk rotating in opposite directions.",
+    "choices": ["attrition mill", "ball mill", "beater mill", "tumbling mill"],
+    "answer": "attrition mill"
+  },
+  {
+    "question": "A press in which mechanical feeding of the work is synchronized with the press action",
+    "choices": ["automatic press", "dial press", "manual press", "punch press"],
+    "answer": "automatic press"
+  },
+  {
+    "question": "A supporting member that carriers a wheel and either rotates with the wheel to transmit mechanical power to or from it, or allows the wheel to rotate freely on it called",
+    "choices": ["axle", "bushing", "coupling", "shaft"],
+    "answer": "axle"
+  },
+  {
+    "question": "A file whose edges are parallel is known as",
+    "choices": [
+      "blunt file",
+      "crochet file",
+      "cross cut file",
+      "equaling file"
+    ],
+    "answer": "blunt file"
+  },
+  {
+    "question": "Straight muriatic acid is often used as a flux on:",
+    "choices": [
+      "galvanized iron",
+      "cast sheet",
+      "sheet steel",
+      "any of the above"
+    ],
+    "answer": "any of the above"
+  },
+  {
+    "question": "Special solders used for aluminum usually require:",
+    "choices": [
+      "more heat",
+      "less heat",
+      "the same heat as copper wire",
+      "the same heat as sheet metal"
+    ],
+    "answer": "more heat"
+  },
+  {
+    "question": "Copper is annealed by heating to a cherry red color and:",
+    "choices": [
+      "dousing in cold water",
+      "cooling slowly in air",
+      "dousing in oil",
+      "dousing in hot water"
+    ],
+    "answer": "cooling slowly in air"
+  },
+  {
+    "question": "A piece of mild steel held against an emery wheel will give off:",
+    "choices": [
+      "bright shiny sparks",
+      "light straw colored sparks",
+      "no sparks",
+      "green sparks"
+    ],
+    "answer": "light straw colored sparks"
+  },
+  {
+    "question": "A gear wheel making 156 rpm has 56 teeth. It drives another gear at 91 rpm. The number of teeth on the second gear is:",
+    "choices": ["65", "90", "50", "96"],
+    "answer": "96"
+  },
+  {
+    "question": "Tool steel can be hardened by:",
+    "choices": [
+      "heating red hot and plunging into water",
+      "heating red hot and cooling in a blast of dry air",
+      "heating red hot and plunging into linseed or cottonseed oil",
+      "any of the above, depending on type and use"
+    ],
+    "answer": "any of the above, depending on type and use"
+  },
+  {
+    "question": "A scriber is made from:",
+    "choices": [
+      "carbon steel",
+      "cold-rolled steel",
+      "tool steel",
+      "hot-rolled steel"
+    ],
+    "answer": "tool steel"
+  },
+  {
+    "question": "After grinding a tool bit, the cutting edge should be",
+    "choices": [
+      "case hardened",
+      "rubbed with emery cloth",
+      "rubbed with crocus clothe",
+      "stoned with an oilstone"
+    ],
+    "answer": "stoned with an oilstone"
+  },
+  {
+    "question": "When cutting material in a lathe, the softer the material being cut, the tool bit should have",
+    "choices": [
+      "any of these",
+      "double top rake",
+      "less top rake",
+      "more top rake"
+    ],
+    "answer": "less top rake"
+  },
+  {
+    "question": "A piece of cast iron held against an emery wheel will give off",
+    "choices": [
+      "bright shiny sparks",
+      "dull yellow sparks",
+      "no sparks",
+      "red sparks"
+    ],
+    "answer": "dull yellow sparks"
+  },
+  {
+    "question": "Which of the following is not a common term relating to the classification of fits",
+    "choices": ["bound", "medium force fit", "snug", "tunking"],
+    "answer": "bound"
+  },
+  {
+    "question": "An oversize hole is produced by a drill if",
+    "choices": [
+      "cutting speed is too high",
+      "feed is too high",
+      "insufficient coolant is used",
+      "lips of drill are of unequal length"
+    ],
+    "answer": "lips of drill are of unequal length"
+  },
+  {
+    "question": "The studs used as a coolant in general machine shop consist of",
+    "choices": [
+      "a chemical solution",
+      "an emulsion of oil and water",
+      "a solution of detergent and water",
+      "a straight mineral"
+    ],
+    "answer": "an emulsion of oil and water"
+  },
+  {
+    "question": "Sometimes used for soldering bright tin",
+    "choices": ["rosin", "sal ammoniac", "tallow", "tinning"],
+    "answer": "rosin"
+  },
+  {
+    "question": "A very effective flux for soldering galvanized iron and zinc",
+    "choices": [
+      "cut acid",
+      "muriatic acid",
+      "soldering pastes",
+      "zinc chloride"
+    ],
+    "answer": "muriatic acid"
+  },
+  {
+    "question": "The process of checking the surface of a piece by rolling depressions into the surface",
+    "choices": ["honing", "knurling", "reaming", "snagging"],
+    "answer": "knurling"
+  },
+  {
+    "question": "The process of cutting internal threads by means of a cutting tool.",
+    "choices": ["chamfering", "honing", "reaming", "tapping"],
+    "answer": "tapping"
+  },
+  {
+    "question": "The surface below the cutting edge",
+    "choices": ["face", "flank", "nose", "side relief"],
+    "answer": "flank"
+  },
+  {
+    "question": "Which one is the hardest material?",
+    "choices": ["brass", "bronze", "diamond", "steel"],
+    "answer": "diamond"
+  },
+  {
+    "question": "The movement of belt upon the face of rim or outer of the driver and driven pulleys within the area of arc of contact is called",
+    "choices": ["creep", "crowning", "dressing", "slip"],
+    "answer": "creep"
+  },
+  {
+    "question": "It is a device, which hold the job family",
+    "choices": ["clamp", "fixture", "grip", "jig"],
+    "answer": "fixture"
+  },
+  {
+    "question": "It is the outer surface of face or rim of the pulley is made in convex form to keep the belt in center when it is in motion",
+    "choices": ["creep", "crowning", "dressing", "slip"],
+    "answer": "crowning"
+  },
+  {
+    "question": "It is used to transmit motion at high speed without producing noise.",
+    "choices": ["bevel gear", "helical gears", "hypoid gears", "worm gears"],
+    "answer": "helical gears"
+  },
+  {
+    "question": "It is used to transmit motion at high speed with heavy load without producing noise",
+    "choices": ["bevel gear", "herring bone gear", "spur gear", "worm gear"],
+    "answer": "herring bone gear"
+  },
+  {
+    "question": "It connect the shafts with soft materials such as rubber, leather and canvass",
+    "choices": [
+      "flexible coupling",
+      "Oldham coupling",
+      "rigid coupling",
+      "universal coupling"
+    ],
+    "answer": "flexible coupling"
+  },
+  {
+    "question": "One of the most important factors that is often overlooked when soldering is the fact that:",
+    "choices": [
+      "the surface to be soldered must be clean",
+      "the two metals to be soldered must not be the same",
+      "the two metals to be soldered must be the same",
+      "all surfaces should be dipped in acid first"
+    ],
+    "answer": "the surface to be soldered must be clean"
+  },
+  {
+    "question": "A surface should be prepared for soldering by:",
+    "choices": [
+      "filing the surfaces",
+      "scraping the surfaces",
+      "acid-cleaning the surfaces",
+      "any of the above"
+    ],
+    "answer": "any of the above"
+  },
+  {
+    "question": "The hand tool used for cutting threads on round stock is the:",
+    "choices": ["stock and die", "die wrench", "stock", "stock cutter"],
+    "answer": "stock and die"
+  },
+  {
+    "question": "A tapered piece of stock is 2” long, 1-1/8” diameter at one end and ½ diameter at the other end. The taper per foot is:",
+    "choices": ["2”", "2-1/2”", "2-1/4”", "2-1/16”"],
+    "answer": "2-1/4”"
+  },
+  {
+    "question": "Sweating is the process of:",
+    "choices": [
+      "soldering two different kinds of metal together",
+      "separating two pieces of metal that have been soldered together",
+      "tinning two surfaces, applying flux between them, holding the two together and heating",
+      "none of the above"
+    ],
+    "answer": "tinning two surfaces, applying flux between them, holding the two together and heating"
+  },
+  {
+    "question": "If muriatic acid is used as a flux, the soldered area must be cleaned thoroughly afterwards to prevent:",
+    "choices": [
+      "anyone touching it from getting burned",
+      "remaining acid from eating the metal",
+      "the acid from evaporating the solder disintegrating",
+      "none of the above"
+    ],
+    "answer": "remaining acid from eating the metal"
+  },
+  {
+    "question": "It cannot be forged because it will break if heated and beaten by hammer.",
+    "choices": ["Carbon steel", "Cast iron", "High speed steel", "Tool steel"],
+    "answer": "Cast iron"
+  },
+  {
+    "question": "Shaper tools are made of what type of material?",
+    "choices": ["Babbitt", "Brass", "Bronze", "High speed steel"],
+    "answer": "High speed steel"
+  },
+  {
+    "question": "It is the operation of beveling the mouth of a hole.",
+    "choices": [
+      "Counter boring",
+      "Counter broaching",
+      "Counter sinking",
+      "Spot facing"
+    ],
+    "answer": "Counter sinking"
+  },
+  {
+    "question": "The size of abrasive grains produced by crushing process is called:",
+    "choices": ["Grit"],
+    "answer": "Grit"
+  },
+  {
+    "question": "It is the combination of iron, carbon and other alloying elements.",
+    "choices": ["Alloy steel", "Brass", "Carbon steel", "Cast iron"],
+    "answer": "Alloy steel"
+  },
+  {
+    "question": "It is the process to divide the periphery of the job in degrees.",
+    "choices": [
+      "Angular indexing",
+      "Differential indexing",
+      "Direct indexing",
+      "Plain indexing"
+    ],
+    "answer": "Angular indexing"
+  },
+  {
+    "question": "It consists of surface irregularities, which result from the various manufacturing process.",
+    "choices": ["Flaws", "Lay", "Roughness", "Waiveness"],
+    "answer": "Roughness"
+  },
+  {
+    "question": "A piece of tool steel held against an emery wheel will give off:",
+    "choices": [
+      "White sparks with stars on the ends",
+      "Yellow sparks",
+      "No sparks",
+      "Green sparks"
+    ],
+    "answer": "White sparks with stars on the ends"
+  },
+  {
+    "question": "Grinding wheels have a range of soft to hard abrasive materials depending on the use. Most manufacturers latter their wheels from A to Z. The hardest is marked:",
+    "choices": ["E", "A", "Z", "El"],
+    "answer": "Z"
+  },
+  {
+    "question": "The main difference between a planer and shaper is that:",
+    "choices": [
+      "The planer has an offset table and the shaper has a horizontal table.",
+      "The shaper has a rotting table and the planer has a horizontal table.",
+      "The table of planer has a reciprocating motion past the tool head white the table of the shaper is stationary and the tool head has a reciprocating motion.",
+      "Ones is larger than the other"
+    ],
+    "answer": "The table of planer has a reciprocating motion past the tool head white the table of the shaper is stationary and the tool head has a reciprocating motion."
+  },
+  {
+    "question": "One of the factors involved in the choice of a grinding wheel is:",
+    "choices": [
+      "The kind of material to be ground",
+      "The amount of stock to be removed",
+      "The kind of finish required",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "The “tang” of a file is the past that:",
+    "choices": [
+      "Does the cutting",
+      "Fits into the handle",
+      "has no teeth",
+      "is opposite the handle"
+    ],
+    "answer": "Fits into the handle"
+  },
+  {
+    "question": "The best method of avoiding accident is by observing _______ related to job, machine and work piece.",
+    "choices": ["Cleanliness", "Emery", "Opponent", "Safety precautions"],
+    "answer": "Safety precautions"
+  },
+  {
+    "question": "The size of try square is measured from the inner edge of stock to the end of its",
+    "choices": ["Base", "Blade", "Body", "Edge"],
+    "answer": "Blade"
+  },
+  {
+    "question": "Angle of center punch is",
+    "choices": ["30°", "45°", "60°", "90°"],
+    "answer": "90°"
+  },
+  {
+    "question": "Staggering of hacksaw blade teeth on both sides alternatively is called",
+    "choices": [
+      "Arrangement of teeth",
+      "Positioning to teeth",
+      "Setting of teeth",
+      "None of the above"
+    ],
+    "answer": "Setting of teeth"
+  },
+  {
+    "question": "It is the distance measured parallel to the axis from a point on a screw thread to the corresponding point on the next thread.",
+    "choices": ["Chord", "Lead", "Linear", "Pitch"],
+    "answer": "Pitch"
+  },
+  {
+    "question": "Solder is an alloy of",
+    "choices": [
+      "Lead and antimony",
+      "Lead and tin",
+      "Lead and tungsten",
+      "Lead and zinc"
+    ],
+    "answer": "Lead and tin"
+  },
+  {
+    "question": "It’s a square key with the bottom two corners are beveled.",
+    "choices": ["Saddle key", "Barth key", "Woodruff key", "Gib head key"],
+    "answer": "Barth key"
+  },
+  {
+    "question": "Change in metal structure by which the surface structure recover from its unstable condition",
+    "choices": ["annealing", "normalizing", "aging", "tempering"],
+    "answer": "aging"
+  },
+  {
+    "question": "A tapered square key is known as",
+    "choices": ["Gib head", "Woodruff", "Kennedy", "Barth"],
+    "answer": "Kennedy"
+  },
+  {
+    "question": "The process of welding two dissimilar metals is known as",
+    "choices": [
+      "Friction welding",
+      "Flash welding",
+      "Oxyacetylene welding",
+      "Cold welding"
+    ],
+    "answer": "Cold welding"
+  },
+  {
+    "question": "A nonmetal considered as undesirable impurity in steel is",
+    "choices": ["lead", "sulfur", "phosphorous", "cyanide"],
+    "answer": "sulfur"
+  },
+  {
+    "question": "An alloying element which improves the tensile strength of steel and makes it harder",
+    "choices": ["vanadium", "carbon", "cobalt", "chromium"],
+    "answer": "chromium"
+  },
+  {
+    "question": "An alloying element which reduces deformation of configuration and sulfuric brittleness",
+    "choices": ["molybdenum", "manganese", "nickel", "chromium"],
+    "answer": "manganese"
+  },
+  {
+    "question": "What is the lip clearance angle of a twist drill for generated work?",
+    "choices": ["3 – 6°", "8 – 10°", "12 – 15°", "18 – 22°"],
+    "answer": "12 – 15°"
+  },
+  {
+    "question": "It is a milling method in which parts are placed in a row parallel to the axis of the cutting tool end are milled simultaneously.",
+    "choices": [
+      "Abreast milling",
+      "Angular milling",
+      "Helical milling",
+      "Straddle milling"
+    ],
+    "answer": "Abreast milling"
+  },
+  {
+    "question": "A core drill with hardened steel shot pellets that revolve under the rim of the rotating tube, employed in rotary drilling in very hard ground.",
+    "choices": [
+      "Adamantive drill",
+      "Automatic drill",
+      "Double core barrel drill",
+      "Flat drill"
+    ],
+    "answer": "Adamantive drill"
+  },
+  {
+    "question": "A grinding mill of large diameter with either lumps of ore pebbles or steel balls as crushing bodies the dry lead is air swept remove mesh material.",
+    "choices": ["Aerial speed", "Aero fall mill", "Aero motor", "Ball mill"],
+    "answer": "Aero fall mill"
+  },
+  {
+    "question": "A tool – steel cutter used for – finishing surfaces of angles greater than or less than 90* with its axis of rotation called:",
+    "choices": [
+      "Angle cutter",
+      "Asphalt cutter",
+      "Circular cutter",
+      "Helical cutter"
+    ],
+    "answer": "Angle cutter"
+  },
+  {
+    "question": "When installing a new grinding wheel, always use:",
+    "choices": [
+      "Blotting paper gaskets on each side of the wheel",
+      "Copper gasket on each side of the wheel",
+      "Only the steel washers provided with the machine",
+      "None of the above"
+    ],
+    "answer": "Blotting paper gaskets on each side of the wheel"
+  },
+  {
+    "question": "The operation of 'truing' a grinding wheel is known as:",
+    "choices": ["centering", "dressing", "sizing", "rounding"],
+    "answer": "dressing"
+  },
+  {
+    "question": "The tool used to check external pipe threads is called a:",
+    "choices": ["plug gage", "thread gage", "pitch gage", "ring gage"],
+    "answer": "ring gage"
+  },
+  {
+    "question": "The tool used to check internal pipe threads is called a:",
+    "choices": ["plug gage", "thread gage", "pitch angle", "ring gage"],
+    "answer": "plug gage"
+  },
+  {
+    "question": "The tool used to cut gears is called a:",
+    "choices": ["gear cutter", "gear hob", "gear center", "gear threader"],
+    "answer": "gear hob"
+  },
+  {
+    "question": "If you use a dry grinding wheel for sharpening tool bits, dip the end of the bit in water frequently to prevent",
+    "choices": [
+      "burning your fingers",
+      "annealing the cutting edge of the bit",
+      "hardening of the tip",
+      "the tip from crystallizing"
+    ],
+    "answer": "annealing the cutting edge of the bit"
+  },
+  {
+    "question": "CNC in machine shop means",
+    "choices": [
+      "Communication Network Control",
+      "Computer Network Center",
+      "Computer Number Control",
+      "Computer Numerical Control"
+    ],
+    "answer": "Computer Numerical Control"
+  },
+  {
+    "question": "It is the time lost due to breakdowns, waiting for tools, minor accidents, etc.",
+    "choices": ["Down time", "Handling time", "Machining time", "Set up time"],
+    "answer": "Down time"
+  },
+  {
+    "question": "Refers to the process of separating or removing the burning or combustible material from the neighborhood of the fire.",
+    "choices": ["Blanketing", "Combustion", "Cooling", "Starvation"],
+    "answer": "Starvation"
+  },
+  {
+    "question": "What is the necessity of giving tolerance?",
+    "choices": [
+      "It saves the labor charges",
+      "Its saves the material from wastage",
+      "It saves the time",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "It is done then and there by adjusting or repairing the faults come in notice during work.",
+    "choices": [
+      "Corrective maintenance",
+      "Predictive maintenance",
+      "Preventive maintenance",
+      "Routine maintenance"
+    ],
+    "answer": "Routine maintenance"
+  },
+  {
+    "question": "Which statement does NOT belong to the function of bearings?",
+    "choices": [
+      "To give free rotation to the shaft",
+      "To guide the shaft",
+      "To support the shaft",
+      "To transmit power"
+    ],
+    "answer": "To transmit power"
+  },
+  {
+    "question": "A 'pillar' file has:",
+    "choices": [
+      "One safe edge",
+      "Three safe edges",
+      "Two safe edges",
+      "A or C"
+    ],
+    "answer": "A or C"
+  },
+  {
+    "question": "In general, files are divided into two classes called:",
+    "choices": [
+      "Single – cut and double – cut",
+      "Fine and coarse",
+      "Rough and smooth",
+      "Heel and sizes"
+    ],
+    "answer": "Single – cut and double – cut"
+  },
+  {
+    "question": "The length of a file is measured from:",
+    "choices": ["End to end", "Point to heel", "Point to end", "Heel to end"],
+    "answer": "Point to heel"
+  },
+  {
+    "question": "A 'pillar' file is used for:",
+    "choices": [
+      "Filling slots",
+      "Filling keyways",
+      "Filling against a shoulder",
+      "Any of the above"
+    ],
+    "answer": "Any of the above"
+  },
+  {
+    "question": "A flexible hacksaw blade has a tendency to:",
+    "choices": [
+      "Snap easily",
+      "Buckle or run out of line when too much pressure is applied",
+      "Cut too fast",
+      "Cut on a slant"
+    ],
+    "answer": "Buckle or run out of line when too much pressure is applied"
+  },
+  {
+    "question": "Soldering is the process of:",
+    "choices": [
+      "Holding two metals together by heating",
+      "Joining two metals by third soft metal that is applied in a molten state",
+      "Holding two different kinds of metals together by heating",
+      "Joining two metals together by heating"
+    ],
+    "answer": "Joining two metals by third soft metal that is applied in a molten state"
+  },
+  {
+    "question": "When soldering, flux is used to:",
+    "choices": [
+      "Keep the solder from running off the metal",
+      "Keep the metal from getting too hot",
+      "Keep the tip of the soldering iron clean",
+      "Remove and prevent oxidation of the metals"
+    ],
+    "answer": "Remove and prevent oxidation of the metals"
+  },
+  {
+    "question": "What is used to connect the shaft whose axes are intersecting?",
+    "choices": [
+      "Flexible coupling",
+      "Oldham coupling",
+      "Rigid coupling",
+      "Universal coupling"
+    ],
+    "answer": "Universal coupling"
+  },
+  {
+    "question": "It is generally used on high speed with light load because it has point contact.",
+    "choices": [
+      "Ball bearing",
+      "Metal bearing",
+      "Roller bearing",
+      "Wood bearing"
+    ],
+    "answer": "Ball bearing"
+  },
+  {
+    "question": "It is generally used on high speed with heavy load because it has line contact.",
+    "choices": [
+      "Ball bearing",
+      "Metal bearing",
+      "Plastic bearing",
+      "Roller bearing"
+    ],
+    "answer": "Roller bearing"
+  },
+  {
+    "question": "It is a process of enlarging and smoothing the punched hole by means of tapered drifts of various sizes and shapes.",
+    "choices": ["Drawing out", "Drifting", "Jumping", "Upsetting"],
+    "answer": "Drifting"
+  },
+  {
+    "question": "It is a set of gears fitted in different positions on a plate which are controlled by a lever.",
+    "choices": ["Differential gear", "Gear train", "Stud gear", "Tumbler gear"],
+    "answer": "Tumbler gear"
+  },
+  {
+    "question": "An instrument for determining the relative hardness of material by a drop and rebound method.",
+    "choices": [
+      "Brinell hardness tester",
+      "Rockwell hardness tester",
+      "Scleroscope",
+      "Universal testing machine"
+    ],
+    "answer": "Scleroscope"
+  },
+  {
+    "question": "An instrument for measuring the degree of surface roughness in micro inches.",
+    "choices": ["Caliper", "Micrometer", "Profilometer", "Sclerescope"],
+    "answer": "Profilometer"
+  },
+  {
+    "question": "These spindles of the grinding machine on which the wheel is mounted.",
+    "choices": ["Arbor", "Bearing", "Bushing", "Fluting"],
+    "answer": "Arbor"
+  },
+  {
+    "question": "A device for holding grinding wheels of special shape or the working piece being ground.",
+    "choices": ["Chuck", "Fixtures", "Head stock", "Jigs"],
+    "answer": "Chuck"
+  },
+  {
+    "question": "Grinding the grooves of a twist drill or tap.",
+    "choices": ["Flaring", "Fluting", "Honing", "Lapping"],
+    "answer": "Fluting"
+  },
+  {
+    "question": "The dulling of the cutting particles of a grinding wheel resulting in a decreased rate of cutting is called:",
+    "choices": ["Fluting", "Glazing", "Grinding", "Lapping"],
+    "answer": "Glazing"
+  },
+  {
+    "question": "The process of lengthening a piece of stock while the cross-sectional area is being reduced.",
+    "choices": ["Drawing", "Honing", "Tapping", "Upsetting"],
+    "answer": "Drawing"
+  },
+  {
+    "question": "The major factors, which determine the rpm on a milling cutter, are the material being cut and",
+    "choices": [
+      "Depth of the cutter",
+      "Diameter of the cutter",
+      "Number of teeth in the cutter",
+      "Time allowed to complete the job"
+    ],
+    "answer": "Time allowed to complete the job"
+  },
+  {
+    "question": "Electron beam machining process is quite suitable for a material having",
+    "choices": [
+      "high melting point and high thermal conductivity",
+      "high melting point and low thermal conductivity",
+      "low melting point and low thermal conductivity",
+      "low melting point and high thermal conductivity"
+    ],
+    "answer": "high melting point and low thermal conductivity"
+  },
+  {
+    "question": "Grinding is what type of operation?",
+    "choices": [
+      "Metal finishing operation",
+      "Metal fusing operation",
+      "Metal powdering operation",
+      "Metal surfacing operation"
+    ],
+    "answer": "Metal finishing operation"
+  },
+  {
+    "question": "Grinding is done wherever",
+    "choices": [
+      "a large amount of material is to be removed",
+      "a small amount of material is to be removed",
+      "high accuracy is required",
+      "other machining operations can not be carried out"
+    ],
+    "answer": "high accuracy is required"
+  },
+  {
+    "question": "Laser beam machining process is used to machine",
+    "choices": [
+      "heavier materials",
+      "lighter materials",
+      "thicker materials",
+      "thinner materials"
+    ],
+    "answer": "thinner materials"
+  },
+  {
+    "question": "A hard grade-grinding wheel is suitable for grinding",
+    "choices": [
+      "both hard and soft materials",
+      "hard materials",
+      "smooth materials",
+      "soft materials"
+    ],
+    "answer": "soft materials"
+  },
+  {
+    "question": "The usual ratio of forward and return stroke, in quick mechanism of shaping machine is",
+    "choices": ["3:1", "3:2", "5:2", "6:8"],
+    "answer": "3:2"
+  },
+  {
+    "question": "Solder will not unite with metal surface that has:",
+    "choices": [
+      "grease on it",
+      "dirt on it",
+      "oxidation on it",
+      "any of the above"
+    ],
+    "answer": "any of the above"
+  },
+  {
+    "question": "Prepared soldered paste flux is most popular but if you did not have any, you should use:",
+    "choices": [
+      "hydrochloric acid",
+      "sulphuric acid",
+      "nitric acid",
+      "any of the above"
+    ],
+    "answer": "hydrochloric acid"
+  },
+  {
+    "question": "Another name for hydrochloric acid is:",
+    "choices": [
+      "sulphuric acid",
+      "muriatic acid",
+      "nitric acid",
+      "acetic acid"
+    ],
+    "answer": "muriatic acid"
+  },
+  {
+    "question": "Hard solder is made of:",
+    "choices": [
+      "copper and zinc",
+      "tin and zinc",
+      "tin and copper",
+      "tin and lead"
+    ],
+    "answer": "copper and zinc"
+  },
+  {
+    "question": "Soft solder is made of:",
+    "choices": [
+      "copper and zinc",
+      "tin and lead",
+      "tin and copper",
+      "tin and zinc"
+    ],
+    "answer": "tin and lead"
+  },
+  {
+    "question": "Soft solder melts at approximately:",
+    "choices": ["250 deg.", "350 deg.", "450 deg.", "550 deg."],
+    "answer": "350 deg."
+  },
+  {
+    "question": "The flux usually used for hard solder is:",
+    "choices": ["rosin", "borax", "barium", "alum"],
+    "answer": "borax"
+  },
+  {
+    "question": "Which of the following is a boring machine tool used particularly for large workplace, types are horizontal and vertical?",
+    "choices": ["Boring mill", "Burrstone mill", "Cage mill", "Chile mill"],
+    "answer": "Boring mill"
+  },
+  {
+    "question": "A tap with a chamfer 1 – 1 ½ threads in length",
+    "choices": ["Bottom tap", "Center tap", "Plug tap", "Taper tap"],
+    "answer": "Bottom tap"
+  },
+  {
+    "question": "A small portable hand drill customarily used by hand setters to drill the holes in breast called",
+    "choices": ["spiral drill", "diamond drill", "churn drill", "breast drill"],
+    "answer": "breast drill"
+  },
+  {
+    "question": "A job, which is fixed away from the table, can be machined by",
+    "choices": ["running head", "moving head", "static head", "traveling head"],
+    "answer": "traveling head"
+  },
+  {
+    "question": "Shaper tools are made of",
+    "choices": ["cast iron", "high speed steel", "mild steel", "wrought iron"],
+    "answer": "high speed steel"
+  },
+  {
+    "question": "Refers to the unit can be moved longitudinally along the swivel table and is clamped in position by two bolts one on either side of the base",
+    "choices": ["Cross stock", "Foot stock", "Head stock", "Tail Stock"],
+    "answer": "Head stock"
+  },
+  {
+    "question": "When a lathe is put into back gear, it will go:",
+    "choices": [
+      "at the same speed backwards",
+      "slower",
+      "faster",
+      "at a slower speed backwards"
+    ],
+    "answer": "slower"
+  },
+  {
+    "question": "When using a drill press, the work should be held with",
+    "choices": ["the hand", "a pair of pliers", "a vise or clamp", "gloves on"],
+    "answer": "a vise or clamp"
+  },
+  {
+    "question": "When drilling a hole in a piece of work held in a lathe chuck, and would use the:",
+    "choices": [
+      "compound rest",
+      "cross-feed",
+      "tailstock and drill chuck",
+      "headstock"
+    ],
+    "answer": "tailstock and drill chuck"
+  },
+  {
+    "question": "Copper is annealed by heating to a cherry red color and:",
+    "choices": [
+      "dousing in cold water",
+      "cooling slowly in air",
+      "dousing with oil",
+      "dousing in hot water"
+    ],
+    "answer": "cooling slowly in air"
+  },
+  {
+    "question": "The purpose of “annealing” is to make a metal:",
+    "choices": ["harder", "medium - hard", "softer", "shiny"],
+    "answer": "softer"
+  },
+  {
+    "question": "The purpose of “tempering” is to make a metal:",
+    "choices": ["harder", "softer", "less brittle", "more brittle"],
+    "answer": "less brittle"
+  },
+  {
+    "question": "The minimum diameter of a piece of round stock necessary to make a square key ¾” on a side is:",
+    "choices": ["1.5”", "1.06”", "1.0”", ".75”"],
+    "answer": "1.06”"
+  },
+  {
+    "question": "A fine grained, salty silica rock used for sharpening edge tools",
+    "choices": ["Oilstone", "Peeblestone", "Surface grinder", "Rocky oil"],
+    "answer": "Oilstone"
+  },
+  {
+    "question": "A hand tool used to measure tension on bolts",
+    "choices": ["Hammer", "Plier", "Screw driver", "Torque range"],
+    "answer": "Torque range"
+  },
+  {
+    "question": "A hand tool used to measure engine crank web deflection",
+    "choices": ["compound gage", "dial gage", "distortion gage", "feeler gage"],
+    "answer": "distortion gage"
+  },
+  {
+    "question": "A kind of chuck, which has reversible jaws, which could be adjusted separately",
+    "choices": [
+      "Combination chuck",
+      "Independent chuck",
+      "Magnetic chuck",
+      "Universal chuck"
+    ],
+    "answer": "Independent chuck"
+  },
+  {
+    "question": "A method whereby a gear is run with another gear that has abrasive surface material",
+    "choices": ["hobbing", "honing", "lapping", "milling"],
+    "answer": "lapping"
+  },
+  {
+    "question": "Is the process of cold works where a limited amount of material, resulted to a higher strength and it leaves a surface under compressive stress",
+    "choices": [
+      "surface finishing",
+      "smoothing",
+      "surfacing",
+      "surface rolling"
+    ],
+    "answer": "surface rolling"
+  },
+  {
+    "question": "Is largely used for low strength application such as elevator ropes not used for hoisting and for stationary guy ropes",
+    "choices": [
+      "steel rope",
+      "cast steel rope",
+      "nylon rope",
+      "iron wire rope"
+    ],
+    "answer": "iron wire rope"
+  },
+  {
+    "question": "Nitriding process of surface treatment for steel tools is used for tools taking",
+    "choices": ["heavy cuts", "light cuts", "medium cuts", "straight cuts"],
+    "answer": "light cuts"
+  },
+  {
+    "question": "At a very low cutting speeds the tool wear is due to",
+    "choices": ["hardness", "material", "plowing action", "transfer"],
+    "answer": "plowing action"
+  },
+  {
+    "question": "They are mixtures of lard, cottonseed or rapeseed oils and mineral oils are called",
+    "choices": ["Cooling oils", "Cutting oils", "Heating oils", "Emulsions"],
+    "answer": "Cutting oils"
+  },
+  {
+    "question": "How is the height of a bench vice adjusted?",
+    "choices": [
+      "By using a wooden plate form",
+      "By using a wooden packing piece under the vice base",
+      "By using a vice adjusting fixture",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Why hacksaw blade teeth get dullness?",
+    "choices": [
+      "Coarse pitched blade is used on hard metal",
+      "Pressure is not released in return stroke",
+      "To much speed and pressure",
+      "Any of the above"
+    ],
+    "answer": "Any of the above"
+  },
+  {
+    "question": "Files are classified according to",
+    "choices": [
+      "grade and cut",
+      "shape",
+      "size and length",
+      "all of the above"
+    ],
+    "answer": "all of the above"
+  },
+  {
+    "question": "How are rivets made?",
+    "choices": ["Cold pressing", "Drawing", "Hot rolling", "Rolling"],
+    "answer": "Cold pressing"
+  },
+  {
+    "question": "What support the top rake?",
+    "choices": ["Front clearance", "Side clearance", "Side rake", "Top rake"],
+    "answer": "Front clearance"
+  },
+  {
+    "question": "Which of the following reduces the rubbing action?",
+    "choices": ["Front clearance", "Side Clearance", "Side rake", "Top rake"],
+    "answer": "Front clearance"
+  },
+  {
+    "question": "Which of the following is used for all general purposes?",
+    "choices": [
+      "Forging",
+      "Production slotter",
+      "Puncher slotter",
+      "Tool room slotter"
+    ],
+    "answer": "Puncher slotter"
+  },
+  {
+    "question": "It is an operation of milling the complex surfaces with the help of a group of cutters mounted on the same arbor",
+    "choices": [
+      "Climb milling",
+      "Down milling",
+      "Gang milling",
+      "Straddle milling"
+    ],
+    "answer": "Straddle milling"
+  },
+  {
+    "question": "It is an operation to divide the periphery of the job into number of equal parts",
+    "choices": ["Dividing head", "Indexing", "Protractor", "Slotting"],
+    "answer": "Indexing"
+  },
+  {
+    "question": "The angle formed between the face of a tool and the work surface or the tangent to the work piece at the point of contact with the tool called",
+    "choices": [
+      "clearance angle",
+      "cutting angle",
+      "rake angle",
+      "wedge angle"
+    ],
+    "answer": "cutting angle"
+  }
+]
