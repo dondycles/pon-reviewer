@@ -1,0 +1,747 @@
+[
+  {
+    "question": "What is the difference of the values of the Wahl factor and the Bergstrasser factor, in percentage?",
+    "choices": ["1%", "Less than 1%", "Greater than 1%", "0.5%"],
+    "answer": "Less than 1%"
+  },
+  {
+    "question": "This type of spring incorporates a standard helical compression spring with two looped wire devices inserted through the inside of spring.",
+    "choices": [
+      "Helical compression spring",
+      "Drawbar spring",
+      "Helical extension spring",
+      "Leaf spring"
+    ],
+    "answer": "Drawbar spring"
+  },
+  {
+    "question": "In a straight bevel gear, how do you call the angle between an element on the pitch cone and an element on the face cone?",
+    "choices": [
+      "Face angle",
+      "Pitch angle",
+      "Addendum angle",
+      "Dedendum angle"
+    ],
+    "answer": "Addendum angle"
+  },
+  {
+    "question": "How do you call a large wood screw that is used to fasten machinery and equipment to a wooden base?",
+    "choices": ["Lag screw", "Wood screw", "Log screw", "Square screw"],
+    "answer": "Lag screw"
+  },
+  {
+    "question": "A journal bearing with angle of contact of the bushing or bearing with the journal is 180o or less, 120o is the common value.",
+    "choices": [
+      "Partial journal bearing",
+      "Full journal bearing",
+      "Clearance journal bearing",
+      "Concentric journal bearing"
+    ],
+    "answer": "Partial journal bearing"
+  },
+  {
+    "question": "It refers to the thickness of the space allowed for the lubricant that separates the parts having relative motion.",
+    "choices": [
+      "Radial clearance",
+      "Diametral clearance",
+      "Film thickness",
+      "Clearance"
+    ],
+    "answer": "Clearance"
+  },
+  {
+    "question": "A journal bearing where the radii of the journal and the bushing are equal; it must be a partial bearing and the journal must run eccentric with the bushing in order to provide space for the lubricant.",
+    "choices": [
+      "Fitted journal bearing",
+      "Clearance journal bearing",
+      "Full journal bearing",
+      "Partial journal bearing"
+    ],
+    "answer": "Fitted journal bearing"
+  },
+  {
+    "question": "A partial journal bearing where the line of action of the load or bearing reaction is bisecting the arc of the partial bearing.",
+    "choices": [
+      "Partially loaded bearing",
+      "Eccentrically loaded bearing",
+      "Centrally loaded bearing",
+      "Fully loaded bearing"
+    ],
+    "answer": "Centrally loaded bearing"
+  },
+  {
+    "question": "A journal bearing where the line of action of the load is passing to one side of the center.",
+    "choices": [
+      "Centrally loaded bearing",
+      "Eccentrically loaded or offset bearing",
+      "Fully loaded bearing",
+      "Partially loaded bearing"
+    ],
+    "answer": "Eccentrically loaded or offset bearing"
+  },
+  {
+    "question": "In a straight bevel gear, how do you call the angle between an element on the pitch cone and an element on the face cone?",
+    "choices": [
+      "Face angle",
+      "Pitch angle",
+      "Addendum angle",
+      "Dedendum angle"
+    ],
+    "answer": "Addendum angle"
+  },
+  {
+    "question": "How do you call a large wood screw that is used to fasten machinery and equipment to a wooden base?",
+    "choices": ["Lag screw", "Wood screw", "Log screw", "Square screw"],
+    "answer": "Lag screw"
+  },
+  {
+    "question": "A journal bearing with angle of contact of the bushing or bearing with the journal is 180o or less, 120o is the common value.",
+    "choices": [
+      "Partial journal bearing",
+      "Full journal bearing",
+      "Clearance journal bearing",
+      "Concentric journal bearing"
+    ],
+    "answer": "Partial journal bearing"
+  },
+  {
+    "question": "It refers to the thickness of the space allowed for the lubricant that separates the parts having relative motion.",
+    "choices": [
+      "Radial clearance",
+      "Diametral clearance",
+      "Film thickness",
+      "Clearance"
+    ],
+    "answer": "Clearance"
+  },
+  {
+    "question": "A journal bearing where the radii of the journal and the bushing are equal; it must be a partial bearing and the journal must run eccentric with the bushing in order to provide space for the lubricant.",
+    "choices": [
+      "Fitted journal bearing",
+      "Clearance journal bearing",
+      "Full journal bearing",
+      "Partial journal bearing"
+    ],
+    "answer": "Fitted journal bearing"
+  },
+  {
+    "question": "A partial journal bearing where the line of action of the load or bearing reaction is bisecting the arc of the partial bearing.",
+    "choices": [
+      "Partially loaded bearing",
+      "Eccentrically loaded bearing",
+      "Centrally loaded bearing",
+      "Fully loaded bearing"
+    ],
+    "answer": "Centrally loaded bearing"
+  },
+  {
+    "question": "A journal bearing where the line of action of the load is passing to one side of the center.",
+    "choices": [
+      "Centrally loaded bearing",
+      "Eccentrically loaded or offset bearing",
+      "Fully loaded bearing",
+      "Partially loaded bearing"
+    ],
+    "answer": "Eccentrically loaded or offset bearing"
+  },
+  {
+    "question": "A journal bearing where the line of action of the load is passing to one side of the center.",
+    "choices": [
+      "Centrally loaded bearing",
+      "Eccentrically loaded or offset bearing",
+      "Fully loaded bearing",
+      "Partially loaded bearing"
+    ],
+    "answer": "Eccentrically loaded or offset bearing"
+  },
+  {
+    "question": "Which of the following threads are used for power screw?",
+    "choices": [
+      "Square thread, Acme thread, & Unified thread",
+      "Acme thread, Unified thread, & Buttress thread",
+      "Square thread, Unified thread, & Acme thread",
+      "Square thread, Acme thread, & Buttress Thread"
+    ],
+    "answer": "Square thread, Acme thread, & Buttress Thread"
+  },
+  {
+    "question": "A bearing lubrication obtained by introducing the lubricant, which is sometimes air or water, into the load-bearing area at a pressure high enough to separate the surfaces with a relatively thick film of lubricant. This lubrication does not require motion of one surface relative to another.",
+    "choices": [
+      "Hydrodynamic lubrication",
+      "Hydrostatic lubrication",
+      "Boundary lubrication",
+      "Solid film lubrication"
+    ],
+    "answer": "Hydrostatic lubrication"
+  },
+  {
+    "question": "An externally threaded fastener intended to be used with a nut is said to be a:",
+    "choices": ["Bolt", "Cap screw", "Allen screw", "Power screw"],
+    "answer": "Bolt"
+  },
+  {
+    "question": "It is a lubrication condition where non-conformal surfaces are completely separated by lubricant film and no asperities are in contact.",
+    "choices": [
+      "Elastohydrodynamic lubrication",
+      "Solid film lubrication",
+      "Boundary lubrication",
+      "Hydrodynamic lubrication"
+    ],
+    "answer": "Elastohydrodynamic lubrication"
+  },
+  {
+    "question": "These springs are made from one or more flat strips of brass, bronze, steel or other materials loaded as cantilevers or simple beams.",
+    "choices": [
+      "Torsion springs",
+      "Leaf springs",
+      "Garter springs",
+      "Drawbar springs"
+    ],
+    "answer": "Leaf springs"
+  },
+  {
+    "question": "This refers to the space between adjacent coils when the spring is compressed to its operating length.",
+    "choices": ["Coil clearance", "Pitch", "Lead", "Deflection"],
+    "answer": "Coil clearance"
+  },
+  {
+    "question": "This material is the most popular alloy spring steel for conditions involving higher stresses than can be used with the high-carbon steels and for use where fatigue resistance and long endurance are needed; this is also good for shock and impact loads.",
+    "choices": [
+      "Chrome silicon",
+      "Chrome vanadium",
+      "hard-drawn wire",
+      "Oil-tempered wire"
+    ],
+    "answer": "Chrome vanadium"
+  },
+  {
+    "question": "For an American Standard Screw Threads, what does 6-32 UNC designate?",
+    "choices": [
+      "Size 6, 32 threads per inch, coarse thread",
+      "6 inches basic diameter, 32 threads per inch, coarse",
+      "Size 6, 32 threads per inch, fine thread",
+      "32 inches basic diameter, 6 threads per inch, coarse"
+    ],
+    "answer": "Size 6, 32 threads per inch, coarse thread"
+  },
+  {
+    "question": "It is a Grashof four-bar mechanism in which the shortest link is the frame or fixed link and the other two cranks completely rotate with their axes. How do you call this Grashof four-bar mechanism?",
+    "choices": [
+      "Drag-link mechanism",
+      "Crank-rocker mechanism",
+      "Double-rocker mechanism",
+      "Triple-rocker mechanism"
+    ],
+    "answer": "Drag-link mechanism"
+  },
+  {
+    "question": "For a planar four-bar linkage, the sum of the shortest and longest lengths cannot be greater than the sum of the remaining two link lengths if there is to be a continuous relative rotation between two members. How do you call the preceding statement?",
+    "choices": [
+      "Grubler’s Law",
+      "Coriolli’s Law",
+      "Grashof’s Law",
+      "Freudentein’s Law"
+    ],
+    "answer": "Grashof’s Law"
+  },
+  {
+    "question": "Which of the following is not true for an instant center or centro of planar linkages?",
+    "choices": [
+      "Centro is a point common to two bodies having the same velocity in each.",
+      "Centro is a point in one body about which another body does not rotate.",
+      "Centro is a point in one body about which another body actually turns.",
+      "Centro is a point in one body about which another body tends to turn."
+    ],
+    "answer": "Centro is a point in one body about which another body does not rotate."
+  },
+  {
+    "question": "This is the most common work holding device of a shaper machine with the base graduated in degrees that make it possible to swivel any angle. What is this working device?",
+    "choices": [
+      "Shaper vise",
+      "Parallel bars and hold down bars",
+      "Lathe holder",
+      "Swivel head"
+    ],
+    "answer": "Shaper vise"
+  },
+  {
+    "question": "This is a shaper operation, which is shaping the given stock and having the excess material remain with a tolerable allowance for finishing. How do you call this operation?",
+    "choices": ["Roughing", "Finishing", "Angular cutting", "Contouring"],
+    "answer": "Roughing"
+  },
+  {
+    "question": "How do you call a cutting tool that has two or more cutting edges as in drill presses and milling machine cutters?",
+    "choices": [
+      "Grinder",
+      "Single-point cutting tool",
+      "Multi-point cutting tool",
+      "Two point cutting tool"
+    ],
+    "answer": "Two point cutting tool"
+  },
+  {
+    "question": "This is the trade name for a patented alloy made up chiefly of cobalt, chromium, and tungsten in varying proportions. What is this trade name?",
+    "choices": ["Stellite", "Carboloy", "Stainless steel", "Copper"],
+    "answer": "Stellite"
+  },
+  {
+    "question": "It is called as the transformation of concepts and ideas into useful machinery. What is this?",
+    "choices": ["Design", "Synthesis", "Analysis", "Theorem"],
+    "answer": "Design"
+  },
+  {
+    "question": "This is a combination of mechanisms and other components that transforms, transmits, or uses energy, load, or motion for a specific purpose. How do you call this?",
+    "choices": ["Mechanism", "Engine", "Machine", "Linkage"],
+    "answer": "Machine"
+  },
+  {
+    "question": "It is defined as a synergistic collection of machine elements; synergistic because as a design it represents an idea or concept greater than the sum of the individual parts. What is this system?",
+    "choices": [
+      "System of mechanisms",
+      "Mechanical system",
+      "Design system",
+      "Expert system"
+    ],
+    "answer": "Mechanical system"
+  },
+  {
+    "question": "It may be defined as the displacement per length produced in a solid and as the result of stress. How do you call this?",
+    "choices": ["Deformation", "Elongation", "Strain", "Stress"],
+    "answer": "Strain"
+  },
+  {
+    "question": "What is the combination of applied normal and shear stresses that produces maximum principal normal stress or minimum principal normal stress, with a third principal stress between or equivalent to the extremes?",
+    "choices": [
+      "Principal shear stress",
+      "Principal normal stress",
+      "Maximum shear stress",
+      "Bending and shear stresses"
+    ],
+    "answer": "Principal normal stress"
+  },
+  {
+    "question": "How do you call a load that is applied transversely to the longitudinal axis of the member?",
+    "choices": [
+      "Combined loads",
+      "Concentrated load",
+      "Bending load",
+      "Distributed load"
+    ],
+    "answer": "Distributed load"
+  },
+  {
+    "question": "It is the capacity of a material to absorb energy when it is deformed elastically and then, upon unloading, to increase this energy. What is this capacity of a material?",
+    "choices": ["Resilience", "Toughness", "Rigidity", "Ductility"],
+    "answer": "Resilience"
+  },
+  {
+    "question": "How do you call the strain energy per unit volume required to stress a material from an unloaded state to the point of yielding?",
+    "choices": [
+      "Modulus of roughness",
+      "Modulus of elasticity",
+      "Modulus of rigidity",
+      "Modulus of resilience"
+    ],
+    "answer": "Modulus of resilience"
+  },
+  {
+    "question": "What is the ability of the material to absorb energy up to fracture?",
+    "choices": ["Toughness", "Rigidity", "Resilience", "Stiffness"],
+    "answer": "Toughness"
+  },
+  {
+    "question": "What is the other term for the Maximum-Shear-Stress Theory, as a failure prediction theory?",
+    "choices": [
+      "von Mises criterion",
+      "Tresca yield criterion",
+      "Coulomb-Mohr theory",
+      "Modified Mohr theory"
+    ],
+    "answer": "Tresca yield criterion"
+  },
+  {
+    "question": "It is a failure prediction theory, which states that a part subjected to any combination of loads will fail (by yielding or fracturing) whenever the maximum shear stress exceeds a critical value. How do you call this failure prediction theory?",
+    "choices": [
+      "Distortion-energy theory",
+      "Maximum-shear-stress theory",
+      "Internal friction theory",
+      "Modified Mohr theory"
+    ],
+    "answer": "Maximum-shear-stress theory"
+  },
+  {
+    "question": "This is a theory in cyclic and impact loading, which states that damage at any stress level is proportional to the number of cycles. What is this theory commonly called?",
+    "choices": [
+      "Miner’s Rule",
+      "Paris Power Law",
+      "Goodman Rule",
+      "Manson-Coffin Relationship"
+    ],
+    "answer": "Miner’s Rule"
+  },
+  {
+    "question": "This is lubrication where the load-carrying surfaces of the bearing are separated by a relatively thick film of lubricant, so as to prevent metal-to-metal contact; and where the stability of the film can be explained by the laws of fluid mechanics. How do you call this type of lubrication?",
+    "choices": [
+      "Hydrostatic lubrication",
+      "Hydrodynamic lubrication",
+      "Elastohydrodynamic lubrication",
+      "Boundary lubrication"
+    ],
+    "answer": "Hydrodynamic lubrication"
+  },
+  {
+    "question": "How do you call the speed at which a rotating shaft becomes dynamically unstable?",
+    "choices": [
+      "Normal speed",
+      "Variable speed",
+      "Critical speed",
+      "Average speed"
+    ],
+    "answer": "Critical speed"
+  },
+  {
+    "question": "How do you call a ball bearing with a race containing pronounced grooves for rolling elements?",
+    "choices": [
+      "Crown bearing",
+      "Conrad bearing",
+      "Angular-contact bearing",
+      "Cylindrical bearing"
+    ],
+    "answer": "Conrad bearing"
+  },
+  {
+    "question": "This is a machining process for producing an internal straight cylindrical surface or profiles, with process characteristics and tooling similar to those for turning operations. What is this machining process?",
+    "choices": ["Boring", "Drilling", "Reaming", "Milling"],
+    "answer": "Boring"
+  },
+  {
+    "question": "What is a set of specifications for parts, materials, or processes intended to achieve uniformity, efficiency, and a specified quality?",
+    "choices": ["Code", "Standard", "Law", "Theorem"],
+    "answer": "Standard"
+  },
+  {
+    "question": "This is a set of specifications for the analysis, design, manufacture, and construction of something; the purpose of which is to achieve a specified degree of safety, efficiency, and performance or quality. How do you call this set of specifications?",
+    "choices": ["Code", "Standard", "Law", "Theorem"],
+    "answer": "Code"
+  },
+  {
+    "question": "How do you call the size to which limits or deviations are assigned and are the same for both members of the fit; it is the exact theoretical size?",
+    "choices": ["Nominal size", "Basic size", "Maximum size", "Minimum size"],
+    "answer": "Basic size"
+  },
+  {
+    "question": "What is the algebraic difference between a size and the corresponding basic size?",
+    "choices": ["Tolerance", "Allowance", "Deviation", "Limit"],
+    "answer": "Deviation"
+  },
+  {
+    "question": "What is the difference between the maximum and minimum size limits of a part?",
+    "choices": ["Allowance", "Tolerance", "Deviation", "Basic size"],
+    "answer": "Tolerance"
+  },
+  {
+    "question": "What are the stated maximum and minimum dimensions?",
+    "choices": ["Tolerances", "Limits", "Nominal sizes", "Basic sizes"],
+    "answer": "Limits"
+  },
+  {
+    "question": "This is a general term that refers to the mating of cylindrical parts such as a bolt or a hole; it is used only when the internal member is smaller than the external member. How do you call this?",
+    "choices": ["Clearance", "Interference", "Allowance", "Tolerance"],
+    "answer": "Clearance"
+  },
+  {
+    "question": "What is the opposite of clearance, for mating cylindrical parts in which the internal member is larger than the external member?",
+    "choices": ["Clearance", "Allowance", "Tolerance", "Interference"],
+    "answer": "Interference"
+  },
+  {
+    "question": "These are compounds of metallic elements, most frequently oxides, nitrides, and carbides.",
+    "choices": ["Plastics", "Polymers", "Ceramics", "Alloy"],
+    "answer": "Ceramics"
+  },
+  {
+    "question": "What do you call a material having different properties in all directions at a point in solid?",
+    "choices": [
+      "Isotropic material",
+      "Anisotropic material",
+      "Orthotropic material",
+      "Ceramic material"
+    ],
+    "answer": "Anisotropic material"
+  },
+  {
+    "question": "This is a principle or method that a deflection at any point in the bar is equal to the sum of deflections caused by each load acting separately. How do you call this method or principle?",
+    "choices": [
+      "Summation Method",
+      "Method of balancing",
+      "Method of superposition",
+      "Shear and Moment diagram method"
+    ],
+    "answer": "Method of superposition"
+  },
+  {
+    "question": "This is the accepted standard wire rope with the wires twisted in one direction to form strands and the strands twisted in opposite direction to form a rope. How do you call this wire rope?",
+    "choices": [
+      "Improved plow steel wire rope",
+      "Regular lang lay wire rope",
+      "Mild plow steel wire rope",
+      "Long lay wire rope"
+    ],
+    "answer": "Regular lang lay wire rope"
+  },
+  {
+    "question": "What is a form of corrosion that develops on highly localized areas on a metal surface?",
+    "choices": ["Crevice", "Erosion", "Galvanic", "Pitting"],
+    "answer": "Pitting"
+  },
+  {
+    "question": "How do you call the corrosion of iron-base alloys?",
+    "choices": ["Rusting", "Crazing", "Chalking", "Fritting"],
+    "answer": "Rusting"
+  },
+  {
+    "question": "Which of the following is the allowable stress that is generally used in practice for main transmitting shafts?",
+    "choices": ["8,500 psi", "4,000 psi", "6,000 psi", "6,500 psi"],
+    "answer": "4,000 psi"
+  },
+  {
+    "question": "What is an equation used to determine the first critical speed of the shaft that overestimates frequency?",
+    "choices": [
+      "Soderberg Equation",
+      "Rayleigh Equation",
+      "Dunkerly Equation",
+      "Euler Equation"
+    ],
+    "answer": "Rayleigh Equation"
+  },
+  {
+    "question": "This key allows the hub to move along the shaft but prevents the rotation of the shaft. How do you call this key?",
+    "choices": ["Woodruff key", "Feather key", "Gibs key", "Square key"],
+    "answer": "Feather key"
+  },
+  {
+    "question": "How do you call the ratio of the mean diameter of the coil and the coil diameter of a spring?",
+    "choices": ["Wahl number", "Diameter ratio", "Spring index", "Lead angle"],
+    "answer": "Spring index"
+  },
+  {
+    "question": "For ACME thread, the pressure angle normal to the thread is equal to:",
+    "choices": ["12.5°", "14.5°", "13.5°", "34°"],
+    "answer": "14.5°"
+  },
+  {
+    "question": "It is a low-cost spring material, suitable where service is not severe and dimensional precision is not needed. How do you call this spring material?",
+    "choices": [
+      "Hard drawn wire",
+      "Helical spring wire",
+      "Stainless steel",
+      "Helical tension spring wire"
+    ],
+    "answer": "Hard drawn wire"
+  },
+  {
+    "question": "How do you call a spring material that is hard drawn (80% reduction) but made up of high-grade steel?",
+    "choices": [
+      "Music wire",
+      "Oil-tempered wire",
+      "Song wire",
+      "Chromium-silicon wire"
+    ],
+    "answer": "Music wire"
+  },
+  {
+    "question": "It is a design approach where no catastrophic loss can occur as a result of a component failure. What is this design approach?",
+    "choices": [
+      "Fail-safe design approach",
+      "Fault-free analysis approach",
+      "Manifest danger approach",
+      "Redundancy approach"
+    ],
+    "answer": "Fail-safe design approach"
+  },
+  {
+    "question": "In a lathe machine, how do you call the diameter of the largest workpiece that can be rotated in a chuck or between centers without hitting the bed?",
+    "choices": [
+      "Chuck diameter",
+      "Swing",
+      "Distance between centers",
+      "Spindle diameter"
+    ],
+    "answer": "Swing"
+  },
+  {
+    "question": "How do you call a phenomenon when two touching surfaces have a high contact pressure and when these surfaces have minute relative motion?",
+    "choices": ["Pre-stressing", "Friction", "Carving", "Fretting"],
+    "answer": "Fretting"
+  },
+  {
+    "question": "What is this part of the headstock of a lathe machine used to transmit power from the spindle?",
+    "choices": ["Motor", "Back gear", "Headstock spindle", "Switch"],
+    "answer": "Back gear"
+  },
+  {
+    "question": "When a hot part is cooled suddenly by quenching, there is momentarily a high temperature gradient that induces a stress gradient. Some metal parts under certain conditions crack as a result. What is this phenomenon?",
+    "choices": [
+      "Thermal-shock failure",
+      "Thermal fatigue",
+      "Honing",
+      "Quenching"
+    ],
+    "answer": "Thermal-shock failure"
+  },
+  {
+    "question": "When a hot part is cooled suddenly by quenching, there is momentarily a high temperature gradient that induces a stress gradient. Some metal parts under certain conditions crack as a result. How do you call this phenomenon?",
+    "choices": [
+      "Thermal-shock failure",
+      "Thermal fatigue",
+      "Honing",
+      "Quenching"
+    ],
+    "answer": "Thermal-shock failure"
+  },
+  {
+    "question": "It is the condition of a machine element when it is completely inoperable, cannot perform its intended function adequately, or is unreliable for continued safe use. What do you call this condition?",
+    "choices": [
+      "Fail-safe condition",
+      "Failure condition",
+      "Critical condition",
+      "Salvage"
+    ],
+    "answer": "Failure condition"
+  },
+  {
+    "question": "How do you call a statistical data used to identify the most likely failure modes?",
+    "choices": [
+      "Finite element analysis",
+      "Fault-free analysis",
+      "Failure analysis",
+      "Random analysis"
+    ],
+    "answer": "Failure analysis"
+  },
+  {
+    "question": "It is a computational method used for solving complex shapes, such as those found in machinery; replaces the complex shape with a set of simple elements interconnected at a finite set of a specific purpose. What is this computational method?",
+    "choices": [
+      "Finite element analysis",
+      "Numerical method of analysis",
+      "Fault-free analysis",
+      "Synthesis"
+    ],
+    "answer": "Finite element analysis"
+  },
+  {
+    "question": "It is a design approach where needed service is made apparent before catastrophic failure. How do you call this?",
+    "choices": [
+      "Manifest danger design approach",
+      "Machine element function approach",
+      "Failure analysis",
+      "Random analysis"
+    ],
+    "answer": "Manifest danger design approach"
+  },
+  {
+    "question": "It is a beam where one end is fixed and the other end is free. How do you call this beam?",
+    "choices": [
+      "Cantilever beam",
+      "Continuous beam",
+      "Overhanging beam",
+      "Long beam"
+    ],
+    "answer": "Cantilever beam"
+  },
+  {
+    "question": "It is a method used to graphically visualize the state of stress acting in different planes passing through a given point. What is this?",
+    "choices": [
+      "Mohr’s circle",
+      "Soderberg Criterion",
+      "Goodmann’s method",
+      "Gerber’s line criterion"
+    ],
+    "answer": "Mohr’s circle"
+  },
+  {
+    "question": "This minimum distance is measured between the non-driving side of a tooth and the adjacent side of the mating tooth. It is the amount by which the width of a tooth space exceeds the thickness of the engaging tooth measured on the pitch circle. What is this distance?",
+    "choices": ["Circular pitch", "Whole depth", "Backlash", "Space width"],
+    "answer": "Backlash"
+  },
+  {
+    "question": "It is an arc of the pitch circle of a spur gear through which a tooth travels from the point of contact with the mating tooth to the pitch point. What is this arc?",
+    "choices": [
+      "Arc of action",
+      "Arc of approach",
+      "Arc of recess",
+      "Involute curve"
+    ],
+    "answer": "Arc of approach"
+  },
+  {
+    "question": "What is the intersection of the elements making up the pitch cone?",
+    "choices": [
+      "Pitch cone",
+      "Cone distance",
+      "Apex of pitch cone",
+      "Root cone"
+    ],
+    "answer": "Apex of pitch cone"
+  },
+  {
+    "question": "What do you call a type of bolt threaded on both ends and can be used where a through bolt is impossible?",
+    "choices": ["Coupling bolt", "Machine bolt", "Stud bolt", "Carriage bolt"],
+    "answer": "Stud bolt"
+  },
+  {
+    "question": "To avoid the excessive wear rate, what is the recommended limiting pressure for 6 x 19 rope for cast iron?",
+    "choices": ["200 psi", "400 psi", "300 psi", "500 psi"],
+    "answer": "500 psi"
+  },
+  {
+    "question": "How do you call a type of welding where the arc is covered with a welding composition and a bare electrode wire is fed automatically?",
+    "choices": [
+      "Resistance welding",
+      "Submerged arc welding",
+      "Induction welding",
+      "Spot welding"
+    ],
+    "answer": "Submerged arc welding"
+  },
+  {
+    "question": "It is a kind of wear that occurs because of fatigue failure of the surface materials as a result of high contact stresses. What do you call this?",
+    "choices": ["Slotting", "Pitting", "Involuting", "Curving"],
+    "answer": "Pitting"
+  },
+  {
+    "question": "It is caused by foreign matters, such as grit or metal particles, or by a failure of the oil film at low speed. How do you call this?",
+    "choices": ["Auction", "Scoring", "Abrasion", "Corrosion"],
+    "answer": "Abrasion"
+  },
+  {
+    "question": "It occurs when the oil film fails, but in this case, the load and speed are so high that the metal is melted and the metal is smeared down the profile. What is this?",
+    "choices": ["Abrasion", "Corrosion", "Spalling", "Scoring"],
+    "answer": "Scoring"
+  },
+  {
+    "question": "Normal stress relieving temperature for cast iron:",
+    "choices": [
+      "200 to 350 °F",
+      "400 to 500 °F",
+      "300 to 550 °F",
+      "450 to 550 °F"
+    ],
+    "answer": "450 to 550 °F"
+  },
+  {
+    "question": "A flexible coupling consists of essentially two chain sprockets connected with a short continuous length of roller or silent chains.",
+    "choices": [
+      "Chain coupling",
+      "Oldham coupling",
+      "Flanged coupling",
+      "Universal joint"
+    ],
+    "answer": "Chain coupling"
+  },
+  {
+    "question": "A material of construction (only developed commercially in the late 1940’s concurrently with zirconium) offers the unique combination of wide-ranging corrosion resistance, low density, and high strength.",
+    "choices": ["Titanium", "Tungsten", "Vanadium", "Molybdenum"],
+    "answer": "Titanium"
+  }
+]
