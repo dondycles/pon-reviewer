@@ -1,0 +1,1422 @@
+[
+  {
+    "question": "The process of shaving off small amounts of metal using handheld tools. This process is most often done to obtain precision alignment of machine parts; it is also done to provide shallow pockets that will hold lubricants on flat surfaces, such as machine ways.",
+    "choices": ["Drilling", "Scraping", "Reaming", "Milling"],
+    "answer": "Scraping"
+  },
+  {
+    "question": "Means putting the parts of something together.",
+    "choices": ["Laying out", "Assembling", "Installing", "Fabricating"],
+    "answer": "Assembling"
+  },
+  {
+    "question": "Tools used to turn, or drive, screws; made in many sizes and several shapes; the size is measured by the length of the blade, which is made of tool steel that is hardened and tempered. The screwdriver point for driving slotted screws should be correctly shaped; it must fit the slot in the screw.",
+    "choices": ["Wrenches", "Hammers", "Screwdrivers", "Scrapers"],
+    "answer": "Screwdrivers"
+  },
+  {
+    "question": "A place in which metal parts are cut to the size required and put together to form mechanical units of machines, the machine so made to be used directly or indirectly in the production of the necessities and luxuries of civilization.",
+    "choices": ["Welding shop", "Junk shop", "Machine shop", "Flower shop"],
+    "answer": "Machine shop"
+  },
+  {
+    "question": "A metal-turning machine tool in which the work, while revolving on a horizontal axis, is acted upon by a cutting tool which is made to move slowly (feed) in a direction more or less parallel to the axis of the work (longitudinal feed), or in a direction at right angles to the axis of work (cross feed).",
+    "choices": [
+      "Grinding machine",
+      "Milling machine",
+      "Lathe machine",
+      "Drilling machine"
+    ],
+    "answer": "Lathe machine"
+  },
+  {
+    "question": "This screwdriver has a bent handle; it is used where a straight screwdriver will not reach.",
+    "choices": [
+      "Offset screwdriver",
+      "Phillips screwdriver",
+      "Mechanical screwdriver",
+      "Mill screwdriver"
+    ],
+    "answer": "Offset screwdriver"
+  },
+  {
+    "question": "A machine tool used mainly for producing holes in metal.",
+    "choices": [
+      "Reaming machine",
+      "Drill press",
+      "Welding machine",
+      "Boring machine"
+    ],
+    "answer": "Drill press"
+  },
+  {
+    "question": "Tools used for cutting small wire and for holding, twisting, turning, pulling, and pushing.",
+    "choices": ["Screwdrivers", "Wrenches", "Pliers", "Hammers"],
+    "answer": "Pliers"
+  },
+  {
+    "question": "A machine which is ordinarily used for finishing flat or partly curved surfaces of metal pieces few in number and not usually over a foot or too long.",
+    "choices": [
+      "Shaper machine",
+      "Planer machine",
+      "Milling machine",
+      "Grinding machine"
+    ],
+    "answer": "Shaper machine"
+  },
+  {
+    "question": "A machine tool in which an abrasive wheel is used as a cutting tool to obtain a very high degree of accuracy and a smooth finish on metal parts, including soft and hardened steel.",
+    "choices": [
+      "Drilling machine",
+      "Milling machine",
+      "Grinding machine",
+      "Welding machine"
+    ],
+    "answer": "Grinding machine"
+  },
+  {
+    "question": "A file which is thick, rectangular-shaped file with parallel edges.",
+    "choices": ["Hand file", "Pillar file", "Mill file", "Half-moon file"],
+    "answer": "Hand file"
+  },
+  {
+    "question": "A file which is tapered in thickness and of uniform width. This is used for filing slots and keyways.",
+    "choices": ["Pillar file", "Hand file", "Mill file", "Half-moon file"],
+    "answer": "Pillar file"
+  },
+  {
+    "question": "Also known as combination pliers, are used for gripping; can also cut small-size wire; the slip-joint makes it possible to grip large parts.",
+    "choices": [
+      "Slip-joint pliers",
+      "Side cutting pliers",
+      "Round nose pliers",
+      "Long nose pliers"
+    ],
+    "answer": "Slip-joint pliers"
+  },
+  {
+    "question": "Which of the following does not belong to standard shapes of file?",
+    "choices": ["Flat", "Half-round", "Three-square", "None of these"],
+    "answer": "None of these"
+  },
+  {
+    "question": "One of the three basic ways of using a file which is done by pushing the file lengthwise, straight with or slightly diagonal to the workpiece.",
+    "choices": [
+      "Lathe filing",
+      "Draw filing",
+      "Straight filing",
+      "Back filing"
+    ],
+    "answer": "Straight filing"
+  },
+  {
+    "question": "One of the three basic ways of using a file which consists of stroking the file against the revolving workpiece held in the lathe.",
+    "choices": [
+      "Lathe filing",
+      "Straight filing",
+      "Draw filing",
+      "Mill filing"
+    ],
+    "answer": "Lathe filing"
+  },
+  {
+    "question": "One of the three basic ways of using a file which is performed by grasping the file at end and pushing and drawing across the workpiece.",
+    "choices": [
+      "Draw filing",
+      "Lathe filing",
+      "Straight filing",
+      "None of the above"
+    ],
+    "answer": "Draw filing"
+  },
+  {
+    "question": "A hand tool which is commonly used for cutting or twisting wire and chipping small parts and not to be used for tightening or loosening bolts and nuts.",
+    "choices": ["Screwdriver", "Wrench", "Pliers", "None of the above"],
+    "answer": "Pliers"
+  },
+  {
+    "question": "A type of pliers which is used for cutting wires and holding flat round stock.",
+    "choices": [
+      "Long-nose pliers",
+      "Side-cutting pliers",
+      "Slip joint combination pliers or mechanical pliers",
+      "Square pliers"
+    ],
+    "answer": "Slip joint combination pliers or mechanical pliers"
+  },
+  {
+    "question": "A type of pliers which is used in electrical works for cutting heavy or light wires or for cutting small nails.",
+    "choices": [
+      "Side-cutting pliers",
+      "Long-nose pliers",
+      "Mechanical pliers",
+      "None of the above"
+    ],
+    "answer": "Side-cutting pliers"
+  },
+  {
+    "question": "A type of pliers which is used for cutting and holding fine wire. This is also useful in reaching tight places.",
+    "choices": [
+      "Long-nose pliers",
+      "Slide-cutting pliers",
+      "Diagonal pliers",
+      "None of the above"
+    ],
+    "answer": "Long-nose pliers"
+  },
+  {
+    "question": "Which of the following is a primary forming process?",
+    "choices": ["Casting", "Turning", "Fitting", "Buffing"],
+    "answer": "Casting"
+  },
+  {
+    "question": "Which of the following is not a machining process?",
+    "choices": ["Turning", "Milling", "Casting", "Grinding"],
+    "answer": "Casting"
+  },
+  {
+    "question": "The joints produced by this method are as strong as the parent metal.",
+    "choices": ["Soldering", "Brazing", "Riveting", "Welding"],
+    "answer": "Welding"
+  },
+  {
+    "question": "Which one of the following is a finishing process?",
+    "choices": ["Rolling", "Forging", "Sintering", "Engraving"],
+    "answer": "Engraving"
+  },
+  {
+    "question": "Which of the following process affects the changes in properties of materials?",
+    "choices": ["Shaping", "Hardening", "Sintering", "Anodizing"],
+    "answer": "Hardening"
+  },
+  {
+    "question": "The system used for mass production of identical parts within specified limits of sizes for selection of components at random is known as:",
+    "choices": [
+      "Simplification",
+      "Standardization",
+      "Interchangeable system",
+      "Automation"
+    ],
+    "answer": "Interchangeable system"
+  },
+  {
+    "question": "Alloys are extensively used in industry because they are:",
+    "choices": [
+      "Sufficiently soft",
+      "Have good strength",
+      "Malleable",
+      "Ductile"
+    ],
+    "answer": "Have good strength"
+  },
+  {
+    "question": "Which of the following is the most abundantly used material in industry?",
+    "choices": [
+      "Cast iron",
+      "Mild steel",
+      "Medium carbon steel",
+      "High carbon steel"
+    ],
+    "answer": "Mild steel"
+  },
+  {
+    "question": "Wrought iron contains a maximum of which of the following?",
+    "choices": [
+      "0.01 % carbon",
+      "0.3 % carbon",
+      "0.6 % carbon",
+      "2.0 % carbon"
+    ],
+    "answer": "0.01 % carbon"
+  },
+  {
+    "question": "Pig iron is produced by reduction of iron ore in a:",
+    "choices": [
+      "Cupola",
+      "Bessemer converter",
+      "Open hearth furnace",
+      "Blast furnace"
+    ],
+    "answer": "Blast furnace"
+  },
+  {
+    "question": "Which of the following are the main alloying elements present in stainless steel?",
+    "choices": [
+      "Nickel and manganese",
+      "Nickel and tungsten",
+      "Nickel and chromium",
+      "Nickel and cobalt"
+    ],
+    "answer": "Nickel and chromium"
+  },
+  {
+    "question": "Along with chromium and vanadium the main constituent of high speed steel is which of the following?",
+    "choices": ["Manganese", "Nickel", "Tungsten", "Vanadium"],
+    "answer": "Tungsten"
+  },
+  {
+    "question": "Grey cast iron gives grey fracture due to the presence of which of the following?",
+    "choices": ["Ferrite", "Pearlite", "Graphite", "Cementite"],
+    "answer": "Graphite"
+  },
+  {
+    "question": "Copper is the parent metal of brass. Which of the following is the other metal present in brass?",
+    "choices": ["Lead", "Tin", "Aluminum", "Zinc"],
+    "answer": "Zinc"
+  },
+  {
+    "question": "Gun metal contains 5 to 10 percent of which of the following materials?",
+    "choices": ["Zinc", "Lead", "Tin", "Aluminum"],
+    "answer": "Tin"
+  },
+  {
+    "question": "Y-alloy is an alloy of aluminum and which of the following metals?",
+    "choices": ["Manganese", "Iron", "Tin", "Copper"],
+    "answer": "Copper"
+  },
+  {
+    "question": "Inconel contains 80 % nickel and 14 % chromium. The other metal present in inconel is:",
+    "choices": ["Iron", "Vanadium", "Silver", "Tin"],
+    "answer": "Iron"
+  },
+  {
+    "question": "Monel contains mainly with traces of iron and manganese. The main alloying element of monel is:",
+    "choices": ["Aluminum", "Copper", "Zinc", "Lead"],
+    "answer": "Copper"
+  },
+  {
+    "question": "Bearing materials should posses which of the following?",
+    "choices": [
+      "High tensile strength",
+      "High hardness",
+      "Hard core",
+      "High compressive strength"
+    ],
+    "answer": "High compressive strength"
+  },
+  {
+    "question": "Which of the following is the trade name of polypropylene?",
+    "choices": ["Alkane", "Polyprex", "Styrene", "Durite"],
+    "answer": "Styrene"
+  },
+  {
+    "question": "The following instrument can be used for subscribing lines parallel to the edges of a part:",
+    "choices": [
+      "Vernier caliper",
+      "Ordinary scale",
+      "Hermaphrodite caliper",
+      "Combination set"
+    ],
+    "answer": "Hermaphrodite caliper"
+  },
+  {
+    "question": "Which of the following is the use of surface gauge?",
+    "choices": [
+      "Laying out the work accuracy",
+      "Check flatness of surface",
+      "Checking surface finish",
+      "Leveling the machine tools"
+    ],
+    "answer": "Laying out the work accuracy"
+  },
+  {
+    "question": "The thickness of a thin sheet can be accurately checked with the help of:",
+    "choices": ["Ordinary scale", "Micrometer", "Combination set", "Caliper"],
+    "answer": "Micrometer"
+  },
+  {
+    "question": "V-block is used in mechanical engineering workshop to check which of the following?",
+    "choices": [
+      "Straightness of the job",
+      "Taper on a job",
+      "Height of a job",
+      "Cylindrical jobs"
+    ],
+    "answer": "Cylindrical jobs"
+  },
+  {
+    "question": "________ is a strong tool used for general work in the shop. Its jaws are pointed at such an angle that it can be used in close corners and unhandy places.",
+    "choices": [
+      "Adjustable-end wrench",
+      "Adjustable S-wrench",
+      "Monkey wrench",
+      "Vise-grip wrench"
+    ],
+    "answer": "Adjustable-end wrench"
+  },
+  {
+    "question": "A sine bar is specified by:",
+    "choices": [
+      "Its total length",
+      "Diameter of the rollers",
+      "Its weight",
+      "Center to center distance between the rollers"
+    ],
+    "answer": "Center to center distance between the rollers"
+  },
+  {
+    "question": "_____________ is a handy tool. It works in close places and the strong steel jaws lock to the work and will not slip; it acts like a vise, clamp, plier, pipe wrench, open-end wrench, or locking tool.",
+    "choices": [
+      "Adjustable-end wrench",
+      "Adjustable S-wrench",
+      "Monkey wrench",
+      "Vise-grip wrench"
+    ],
+    "answer": "Vise-grip wrench"
+  },
+  {
+    "question": "A ratchet screw is provided on a micrometer screw gauge to:",
+    "choices": [
+      "Lock the measured reading",
+      "Maintain constant measuring pressure for all readings",
+      "Prevent wearing of screw threads",
+      "Allow zero adjustments"
+    ],
+    "answer": "Maintain constant measuring pressure for all readings"
+  },
+  {
+    "question": "_____________ is a machine for pressing parts of machinery together or forcing them apart, such as pressing a shaft in or out of a pulley or gear.",
+    "choices": [
+      "Arbor press",
+      "Drill press",
+      "Milling machine",
+      "Forging machine"
+    ],
+    "answer": "Arbor press"
+  },
+  {
+    "question": "Adjusting nut is provided on a micrometer screw gauge to:",
+    "choices": [
+      "Allow zero adjustment",
+      "Compensate for wear and tear between screw and nut",
+      "Eliminate backlash",
+      "Maintain constant measuring pressure for all readings"
+    ],
+    "answer": "Compensate for wear and tear between screw and nut"
+  },
+  {
+    "question": "External taper of a job can be measured accurately with the help of:",
+    "choices": [
+      "Sine bar and slip gauges",
+      "Sine bar and dial indicator",
+      "Dial indicator and slip gauges",
+      "Slip gauges and vernier caliper"
+    ],
+    "answer": "Sine bar and dial indicator"
+  },
+  {
+    "question": "Internal dovetail taper can be measured by which of the following?",
+    "choices": [
+      "Sine bar and slip gauges",
+      "Balls of standard size and dial indicator",
+      "Balls of standard size and sine bar",
+      "Balls of standard size and slip gauges"
+    ],
+    "answer": "Balls of standard size and slip gauges"
+  },
+  {
+    "question": "Combination set is used to:",
+    "choices": [
+      "Measure long distances",
+      "Measure cylindrical sizes of a length",
+      "Measure angles",
+      "Measure corner radius"
+    ],
+    "answer": "Measure angles"
+  },
+  {
+    "question": "are made in many sizes and types and are widely used in special workholding fixtures.",
+    "choices": ["Toggle clamps", "C-clamps", "Spring clamps", "Wedge clamps"],
+    "answer": "Toggle clamps"
+  },
+  {
+    "question": "It is a typical material used for a cylinder block.",
+    "choices": [
+      "Forged steel",
+      "Drop-forged, heat-treated steel",
+      "Cast iron and coated with chrome or molybdenum",
+      "Cast iron"
+    ],
+    "answer": "Cast iron"
+  },
+  {
+    "question": "Which of the following is a material used for a piston ring?",
+    "choices": [
+      "Forged steel",
+      "Drop-forged, heat-treated steel",
+      "Cast iron and coated with chrome or molybdenum",
+      "Cast iron"
+    ],
+    "answer": "Cast iron and coated with chrome or molybdenum"
+  },
+  {
+    "question": "Which of the following is the typical material used for an engine crankshaft?",
+    "choices": [
+      "Forged steel",
+      "Heat-treated steel",
+      "Cast iron",
+      "Wrought iron"
+    ],
+    "answer": "Forged steel"
+  },
+  {
+    "question": "What is the function of a governor?",
+    "choices": [
+      "Store energy and give up whatever is needed",
+      "Regulate the speed during one cycle of a prime mover",
+      "Increase variation of speed",
+      "Adjust variation of speed by varying the input to the engine"
+    ],
+    "answer": "Adjust variation of speed by varying the input to the engine"
+  },
+  {
+    "question": "What is a machine used in testing steel generally strike the specimen with energy from 220 to 265 ft-lb?",
+    "choices": ["Izod test", "Charpy test", "Rockwell test", "Test blocked"],
+    "answer": "Charpy test"
+  },
+  {
+    "question": "Almost always the soldering materials are a combination of which of the following alloys?",
+    "choices": [
+      "Lead and tin",
+      "Tin and antimony",
+      "Lead and antimony",
+      "Both a, b & c"
+    ],
+    "answer": "Both a, b & c"
+  },
+  {
+    "question": "To ensure an adequate factor of safety in the design of a shaft with a standard keyway, the key width should be about:",
+    "choices": [
+      "One half of the shaft diameter",
+      "One fourth of the shaft diameter",
+      "One eighth of the shaft diameter",
+      "One third of the shaft diameter"
+    ],
+    "answer": "One fourth of the shaft diameter"
+  },
+  {
+    "question": "This is defined as the cutting time to reach a predetermined wear, called the tool wear criterion.",
+    "choices": ["Wear duration", "Cycle time", "Tool life", "Life cycle"],
+    "answer": "Tool life"
+  },
+  {
+    "question": "Machining operations with the proper application of a cutting fluid generally have the following attributes except:",
+    "choices": [
+      "Higher cutting speeds",
+      "Higher feed rates",
+      "Lengthened tool life",
+      "Higher cutting accuracy"
+    ],
+    "answer": "Higher cutting accuracy"
+  },
+  {
+    "question": "A material of construction (only developed commercially in the late 1940’s concurrently with zirconium) offers the unique combination of wideranging corrosion resistance, low density, and high strength.",
+    "choices": ["Tungsten", "Titanium", "Vanadium", "Molybdenum"],
+    "answer": "Titanium"
+  },
+  {
+    "question": "Which of the following is the lightest of all structural metals?",
+    "choices": ["Aluminum", "Copper", "Magnesium", "Manganese"],
+    "answer": "Aluminum"
+  },
+  {
+    "question": "This is a type of welding whereby a wire or powder from the nozzle of a spray gun is fused by a gas flame, arc or plasma jet and the molten particles are projected in a form of spray by means of compressed air or gas. How do you call this type of welding?",
+    "choices": [
+      "Metal spray welding",
+      "Electro-slug welding",
+      "Electro-beam welding",
+      "Plasma arc welding"
+    ],
+    "answer": "Metal spray welding"
+  },
+  {
+    "question": "Which of the following does not belong to a foundry or metal casting shop?",
+    "choices": [
+      "Core-making machine",
+      "Forging machine",
+      "Shake-out machine",
+      "Molding machine"
+    ],
+    "answer": "Forging machine"
+  },
+  {
+    "question": "Which of the following is a suitable method to check the eccentricity of a shaft?",
+    "choices": [
+      "Bench target and scriber",
+      "Bench top and tachometer",
+      "Bench side and calliper",
+      "Bench centers and dial indicator"
+    ],
+    "answer": "Bench centers and dial indicator"
+  },
+  {
+    "question": "This is a work supporting device which is bolted to the saddle of the lathe machine. It travels with the cutting tool, and used to prevent the springing away of the work piece from the cutting tool. How do you call this part?",
+    "choices": [
+      "Tool post",
+      "Carriage stop",
+      "Follower rest",
+      "Rubber-flex collets"
+    ],
+    "answer": "Follower rest"
+  },
+  {
+    "question": "Which of the following raw materials are used in the foundry molding operation?",
+    "choices": [
+      "Silica sand, linseed oil, & flour",
+      "Silica sand, paste, & graphite electrode",
+      "Silica sand, lime, flour",
+      "Silica sand, bentonite, flour/paste, and water"
+    ],
+    "answer": "Silica sand, bentonite, flour/paste, and water"
+  },
+  {
+    "question": "Which of the following is not part of a micrometer caliper?",
+    "choices": ["Head screw", "Thimble", "Spindle", "Anvil"],
+    "answer": "Head screw"
+  },
+  {
+    "question": "The flux that should be avoided in soldering electrical connections or commutator wires as it tends to corrode the connections.",
+    "choices": [
+      "Acid fluxes",
+      "Salt ammoniac",
+      "Zinc chloride",
+      "Sodium chloride"
+    ],
+    "answer": "Acid fluxes"
+  },
+  {
+    "question": "It is a lathe machine operation used to produce a flat surface at the end of the part, such as parts that are attached to other components or to produce grooves for o-ring seats.",
+    "choices": ["Boring", "Knurling", "Facing", "Parting"],
+    "answer": "Facing"
+  },
+  {
+    "question": "The most important operations in manufacturing is hole making. This can be done by which of the following?",
+    "choices": [
+      "Drilling machine",
+      "Sawing machine",
+      "Boring mills",
+      "Milling machine"
+    ],
+    "answer": "Drilling machine"
+  },
+  {
+    "question": "It is a machine operation used to produce regularly shaped roughness on cylindrical surfaces, as in making knobs. How do you call this operation?",
+    "choices": ["Milling", "Sawing", "Drilling", "Knurling"],
+    "answer": "Knurling"
+  },
+  {
+    "question": "Which of the following material properties is adversely affected by grain refinement?",
+    "choices": [
+      "Creep resistance",
+      "Tensile strength",
+      "Ductility",
+      "Yield strength"
+    ],
+    "answer": "Creep resistance"
+  },
+  {
+    "question": "Hard solder is made of which of the following?",
+    "choices": [
+      "Tin and zinc",
+      "Tin and copper",
+      "Copper and zinc",
+      "Tin and lead"
+    ],
+    "answer": "Copper and zinc"
+  },
+  {
+    "question": "Which of the following is the unit of mass moment of inertia?",
+    "choices": ["kg-m2", "kg/m2", "kg", "N-m"],
+    "answer": "kg-m2"
+  },
+  {
+    "question": "Which of the following is the unit of Young’s modulus of elasticity?",
+    "choices": ["Dimensionless", "Pascal", "Meter", "Newton"],
+    "answer": "Pascal"
+  },
+  {
+    "question": "When a lathe tool bit burns, it means that the:",
+    "choices": [
+      "Speed is too low",
+      "Material is too hard",
+      "Speed is too fast",
+      "Material can’t be cut"
+    ],
+    "answer": "Speed is too fast"
+  },
+  {
+    "question": "The area of the machine shop whose metal is being melted to form a new shape.",
+    "choices": [
+      "Foundry area",
+      "Tool and die",
+      "Welding area",
+      "Mass production area"
+    ],
+    "answer": "Foundry area"
+  },
+  {
+    "question": "A corrosion occurs within or adjacent to a crevice formed by contact with another piece of the same or another metal.",
+    "choices": ["Pitting", "Galvanic", "Erosion", "Crevice"],
+    "answer": "Galvanic"
+  },
+  {
+    "question": "Which of the following is not part of a headstock?",
+    "choices": ["Anvil", "Spindle", "Motor", "Back gear"],
+    "answer": "Anvil"
+  },
+  {
+    "question": "It refers to any layer or deposit of extraneous material on a heat transfer surface.",
+    "choices": ["Low line", "Pressure drop", "Fouling", "Scaling"],
+    "answer": "Fouling"
+  },
+  {
+    "question": "Have the same thermal and minimum film thickness limitation as sleeve bearing.",
+    "choices": ["Ball bearing", "Roller bearing", "Thrust bearing", "Oil whip"],
+    "answer": "Thrust bearing"
+  },
+  {
+    "question": "An oil storage tank roof formed to approximately a spherical surface, supported only at its periphery.",
+    "choices": [
+      "Self-supporting umbrella roof",
+      "Self-supporting cone roof",
+      "Self-supporting",
+      "Supported cone roof"
+    ],
+    "answer": "Self-supporting umbrella roof"
+  },
+  {
+    "question": "What is a unit deformation?",
+    "choices": ["Torsion", "Strain", "Stress", "Shear"],
+    "answer": "Strain"
+  },
+  {
+    "question": "Accident prevention is:",
+    "choices": [
+      "An association of employers, organization & individuals",
+      "A job of a safety director",
+      "The Foreman’s responsibility just as much as production",
+      "The responsibility of top management"
+    ],
+    "answer": "The Foreman’s responsibility just as much as production"
+  },
+  {
+    "question": "Alloy steel known for its resistance to corrosion, abrasion and wear that is usually ideal for mill grinding of ore in cement and concentrator application. It is usually combined with molybdenum to increase the depth hardening.",
+    "choices": [
+      "Manganese chromium steel",
+      "Chromium-moly steel",
+      "Chrome-nickel-moly steel",
+      "Manganese-moly steel"
+    ],
+    "answer": "Chromium-moly steel"
+  },
+  {
+    "question": "Cutting of internal threads of a workpiece can be produced by which of the following?",
+    "choices": ["Milling", "Tapping", "Boring", "Reaming"],
+    "answer": "Tapping"
+  },
+  {
+    "question": "Which of the following milling operations is used to produce curved profiles, with cutters that have specially shaped teeth?",
+    "choices": ["Form", "Straddle", "End", "Slab"],
+    "answer": "Form"
+  },
+  {
+    "question": "In screw threads, what is a pitch?",
+    "choices": [
+      "The distance from a point on one thread to a corresponding point on the next thread measured parallel to the axis.",
+      "The distance of the full length of the thread",
+      "The distance from the bottom of a head on a bolt to the first thread.",
+      "The distance from the top of one thread to the bottom of the next thread"
+    ],
+    "answer": "The distance from a point on one thread to a corresponding point on the next thread measured parallel to the axis."
+  },
+  {
+    "question": "Tapered shanks are used on large drill presses so that:",
+    "choices": [
+      "The drill can be centered more easily",
+      "The drill can be easily forced out of the sleeve with a drift",
+      "The shank will not turn when cutting",
+      "The shank can be ground when worn"
+    ],
+    "answer": "The drill can be centered more easily"
+  },
+  {
+    "question": "It is a type of chuck wherein a workpiece with standard diameter or size could be attached fast and quick especially small size work of mass production. How do you call this type of chuck?",
+    "choices": [
+      "Collet attachment",
+      "Lathe drive plate",
+      "Clamp toe dog",
+      "Steady center rest"
+    ],
+    "answer": "Collet attachment"
+  },
+  {
+    "question": "A type of projection where the object is drawn as viewed in a glass box. Thus, the views are projected to six sides of the box.",
+    "choices": [
+      "Fourth angle projection",
+      "Third angle projection",
+      "Second angle projection",
+      "First angle projection"
+    ],
+    "answer": "Third angle projection"
+  },
+  {
+    "question": "Which of the following is often called as the backbone of lathe machine?",
+    "choices": ["Bed", "Headstock", "Tailstock", "Carriage"],
+    "answer": "Bed"
+  },
+  {
+    "question": "Which of the following properties of metal is insensitive to the microstructure?",
+    "choices": [
+      "Hardness",
+      "Ductility",
+      "Tensile strength",
+      "Modulus of elasticity"
+    ],
+    "answer": "Modulus of elasticity"
+  },
+  {
+    "question": "Which of the following elastic modulus is applied to liquids?",
+    "choices": [
+      "Young’s Modulus",
+      "Bulk Modulus",
+      "Shear modulus",
+      "Modulus of rigidity"
+    ],
+    "answer": "Bulk Modulus"
+  },
+  {
+    "question": "Polymers which, at room temperature, can undergo large deformations under a load and return back to their original shape upon release of load called as:",
+    "choices": [
+      "Meso-polymers",
+      "Thermoplastics",
+      "Thermosetting polymers",
+      "Elastomers"
+    ],
+    "answer": "Elastomers"
+  },
+  {
+    "question": "When using a drill press, the work should be held with which of the following?",
+    "choices": ["The hand", "The glove hand", "Pliers", "A vise and clamp"],
+    "answer": "The hand"
+  },
+  {
+    "question": "Which of the following classes of materials exhibits a decreasing electrical conductivity with increasing temperature?",
+    "choices": [
+      "Intrinsic semiconductor",
+      "P-type semiconductor",
+      "Metals",
+      "Pure ionic materials"
+    ],
+    "answer": "Metals"
+  },
+  {
+    "question": "Which of the following is another name of hydrochloric acid?",
+    "choices": ["Sulfuric acid", "Acetic acid", "Muriatic acid", "Nitric acid"],
+    "answer": "Muriatic acid"
+  },
+  {
+    "question": "Fatigue failure occurs when a part is subjected to which of the following?",
+    "choices": [
+      "Fluctuating stress",
+      "Torsion",
+      "Tensile stress",
+      "Compressive stress"
+    ],
+    "answer": "Compressive stress"
+  },
+  {
+    "question": "A body having identical properties all over is called as:",
+    "choices": ["Elastic", "Homogeneous", "Ductile", "Isentropic"],
+    "answer": "Homogeneous"
+  },
+  {
+    "question": "If a material recovers its original dimensions when the load is removed, the material is said to be:",
+    "choices": ["Annealed", "Brittle", "Elastic", "Plastic"],
+    "answer": "Elastic"
+  },
+  {
+    "question": "It is the behaviour of metals where in strength is increased and ductility is decreased on heating at a relatively low temperature after cold working.",
+    "choices": ["Strain aging", "Screw dislocation", "Clustering", "Twinning"],
+    "answer": "Strain aging"
+  },
+  {
+    "question": "A ductile fracture is characterized by which of the following?",
+    "choices": [
+      "Fragmentation into more than two pieces",
+      "Negligible deformation",
+      "Appreciable plastic deformation prior to propagation of crack",
+      "Rapid rate for crank propagation"
+    ],
+    "answer": "Rapid rate for crank propagation"
+  },
+  {
+    "question": "How do you call the ability of a material to absorb energy when deformed elastically and to return it when unloaded?",
+    "choices": ["Resilience", "Hardness", "Fatigue strength", "Creep"],
+    "answer": "Resilience"
+  },
+  {
+    "question": "The machinability of steel can be increased by which of the following?",
+    "choices": [
+      "Sulphur and carbon",
+      "Phosphorous, lead, & sulphur",
+      "Sulphur, graphite and aluminium",
+      "Silicon and Sulphur"
+    ],
+    "answer": "Phosphorous, lead, & sulphur"
+  },
+  {
+    "question": "Which of the following is steel with 0.8 % carbon and 100 % pearlite?",
+    "choices": ["Solidus", "Hyper-eutectoid", "Eutectoid", "Austenite"],
+    "answer": "Eutectoid"
+  },
+  {
+    "question": "The maximum hardenability of any steel depends on which of the following?",
+    "choices": [
+      "Chemical composition",
+      "Carbon content",
+      "Grain size",
+      "Alloying element present"
+    ],
+    "answer": "Carbon content"
+  },
+  {
+    "question": "Hastalloy contains which of the following?",
+    "choices": [
+      "Nickel and molybdenum",
+      "Nickel and copper",
+      "Copper and aluminium",
+      "Nickel and aluminum"
+    ],
+    "answer": "Nickel and molybdenum"
+  },
+  {
+    "question": "Trimming is a process associated with which of the following?",
+    "choices": [
+      "Machining of metals",
+      "Press work",
+      "Electroplating",
+      "Forging"
+    ],
+    "answer": "Forging"
+  },
+  {
+    "question": "Addition of lead and bismuth to aluminium results in which of the following?",
+    "choices": [
+      "Improving machinability",
+      "One of the best known age and precipitation hardening system",
+      "Improvement of corrosion resistance",
+      "Improvement of casting characteristics"
+    ],
+    "answer": "Improving machinability"
+  },
+  {
+    "question": "Which of the following does not pertain to joining of metals?",
+    "choices": ["Welding", "Soldering", "Casting", "Brazing"],
+    "answer": "Casting"
+  },
+  {
+    "question": "Endurance strength is nearly proportional to the ultimate strength but not with:",
+    "choices": ["Yield strength", "Design stress", "Shear stress", "B and C"],
+    "answer": "Yield strength"
+  },
+  {
+    "question": "If the velocity of a mass is the same all the time during which motion takes place is called:",
+    "choices": [
+      "Deceleration",
+      "Uniform motion",
+      "Acceleration",
+      "None of these"
+    ],
+    "answer": "Uniform motion"
+  },
+  {
+    "question": "In involute teeth, the pressure angle is often defined as the angle between the line of action and the line of tangent to the pitch circle. It is termed as:",
+    "choices": [
+      "Helix angle",
+      "Angle of recess",
+      "Angle of obliquity",
+      "Arc of action"
+    ],
+    "answer": "Angle of obliquity"
+  },
+  {
+    "question": "The function of the clutch in the machine tools is:",
+    "choices": [
+      "Lowering the drive speed",
+      "To disconnect or connect the shaft at will the drive",
+      "Alignment of drive shaft",
+      "To insure that two shafts line up at high speed"
+    ],
+    "answer": "To disconnect or connect the shaft at will the drive"
+  },
+  {
+    "question": "Which of the following is not a heat treatment process?",
+    "choices": ["Sintering", "Annealing", "Hardening", "Tempering"],
+    "answer": "Sintering"
+  },
+  {
+    "question": "An instrument used to analyze the compositions of metals:",
+    "choices": [
+      "Spectrometer",
+      "Radiometer",
+      "Profilometer",
+      "Ultimate analyser"
+    ],
+    "answer": "Spectrometer"
+  },
+  {
+    "question": "Creep is the term used in referring to the:",
+    "choices": [
+      "Elongation before yield point",
+      "Maximum stress of brittle materials",
+      "Fatigue limit of ductile materials",
+      "Continuous increase in the strain, or deformation, of any material subjected to stress"
+    ],
+    "answer": "Continuous increase in the strain, or deformation, of any material subjected to stress"
+  },
+  {
+    "question": "The strength of non-ferrous alloys is maximum at room temperature while that of ferrous metal has a maximum strength at:",
+    "choices": ["400 oF", "450 oF", "1200 oF", "350 oF"],
+    "answer": "400 oF"
+  },
+  {
+    "question": "Which of the following is not a kind of a cast iron?",
+    "choices": ["Malleable iron", "Head iron", "Gray iron", "White iron"],
+    "answer": "Head iron"
+  },
+  {
+    "question": "The kind of center which is being attached and meshed to the tailstock spindle which is also static while the work is rotating is:",
+    "choices": ["Dead center", "Live center", "Focal center", "Work center"],
+    "answer": "Dead center"
+  },
+  {
+    "question": "Which process does not belong to the group?",
+    "choices": ["Resistance welding", "Soldering", "Hardening", "Brazing"],
+    "answer": "Hardening"
+  },
+  {
+    "question": "It is the maximum stress achieved in stress-strain diagram.",
+    "choices": [
+      "Yield Strength",
+      "Ultimate strength",
+      "Elastic strength",
+      "Shear strength"
+    ],
+    "answer": "Ultimate strength"
+  },
+  {
+    "question": "A support where one end is pinned and other is roller-supported.",
+    "choices": [
+      "Simply supported beam",
+      "Column",
+      "Compound supported beam",
+      "Simple beam"
+    ],
+    "answer": "Simply supported beam"
+  },
+  {
+    "question": "Functions used to evaluate shear and moment diagrams, especially when discontinuities, such as concentrated load or moment, exist.",
+    "choices": [
+      "Singularity functions",
+      "Machine element functions",
+      "Finite element functions",
+      "Statistical Element functions"
+    ],
+    "answer": "Singularity functions"
+  },
+  {
+    "question": "A condition where principal stresses exist while all other tensor elements are zero is known as:",
+    "choices": [
+      "Symmetrical tensor",
+      "Bolt tensor",
+      "Unsymmetrical tensor",
+      "Beam tensor"
+    ],
+    "answer": "Symmetrical tensor"
+  },
+  {
+    "question": "The stress at the time of fracture or rupture is called as:",
+    "choices": [
+      "Ultimate stress",
+      "Fracture stress",
+      "Yield stress",
+      "Fatigue stress"
+    ],
+    "answer": "Fracture stress"
+  },
+  {
+    "question": "It is the linear interpolation between densities of alloy concentration.",
+    "choices": [
+      "Rule of thumb",
+      "Miner’s rule",
+      "Rule of mixtures",
+      "Slide rule"
+    ],
+    "answer": "Rule of mixtures"
+  },
+  {
+    "question": "Compounds of carbon and other elements forming long-chain molecules.",
+    "choices": ["Polymers", "Ceramics", "Glasses", "Isotropic"],
+    "answer": "Polymers"
+  },
+  {
+    "question": "The stress above which stress is no longer linearly proportional to strain.",
+    "choices": [
+      "Proportional limit",
+      "Elastic limit",
+      "Ultimate limit",
+      "Yield limit"
+    ],
+    "answer": "Proportional limit"
+  },
+  {
+    "question": "When a hot part is cooled suddenly by quenching, there is momentarily a high temperature gradient that induces a stress gradient. Some metal parts under certain conditions crack as a result. How do you call this phenomenon?",
+    "choices": [
+      "Thermal-shock failure",
+      "Thermal fatigue",
+      "Honing",
+      "Quenching"
+    ],
+    "answer": "Thermal-shock failure"
+  },
+  {
+    "question": "It is the condition of a machine element when it is completely inoperable, cannot perform its intended function adequately, or is unreliable for continued safe use. What do you call this condition?",
+    "choices": [
+      "Fail-safe condition",
+      "Failure condition",
+      "Critical condition",
+      "Salvage condition"
+    ],
+    "answer": "Failure condition"
+  },
+  {
+    "question": "It is defined as the change in volume divided by the original volume.",
+    "choices": [
+      "Linearly elastic",
+      "Camber",
+      "Dilatation",
+      "Partially elastic"
+    ],
+    "answer": "Dilatation"
+  },
+  {
+    "question": "Material that can sustain elongation greater than 5% before fracture is called:",
+    "choices": ["Brittle", "Ductile", "Deformable", "Rigid"],
+    "answer": "Ductile"
+  },
+  {
+    "question": "The name given to a load whose value is constant over long time is:",
+    "choices": ["Static load", "Sustained load", "Average load", "Axial load"],
+    "answer": "Sustained load"
+  },
+  {
+    "question": "It is the peak of the stress-strain curve and sometimes simply called as tensile strength. How do you call this?",
+    "choices": [
+      "Yield strength",
+      "Ultimate tensile strength",
+      "Endurance strength",
+      "Elastic strength"
+    ],
+    "answer": "Ultimate tensile strength"
+  },
+  {
+    "question": "It is a synergistic collection of machine elements. It is synergistic because as a design it represents an idea or concept greater than the sum of the individual parts. How do you call this?",
+    "choices": [
+      "Synthesis",
+      "Analysis",
+      "Mechanical system",
+      "Concurrent engineering"
+    ],
+    "answer": "Mechanical system"
+  },
+  {
+    "question": "How do you call the ratio of stress and strain?",
+    "choices": [
+      "Modulus of rigidity",
+      "Modulus of resilience",
+      "Modulus of elasticity",
+      "Modulus of stiffness"
+    ],
+    "answer": "Modulus of elasticity"
+  },
+  {
+    "question": "What is the philosophy of involving many disciplines from the beginning of a design effort and keeping them involved throughout product development?",
+    "choices": [
+      "Synthesis",
+      "Design",
+      "Mechanical system",
+      "Concurrent engineering"
+    ],
+    "answer": "Concurrent engineering"
+  },
+  {
+    "question": "It is one of the design stages that may be found desirable to use field experience as a basis for further improvement of the product. Since the final product is available, it often becomes the model for evaluation during this design process. This stage is not always used in the design process. How do you call this?",
+    "choices": [
+      "Detail stage",
+      "Revision stage",
+      "Preliminary stage",
+      "Feasibility stage"
+    ],
+    "answer": "Revision stage"
+  },
+  {
+    "question": "That portion of the stress-strain diagram where there is a large increase in strain with little or no increase in stress is called as:",
+    "choices": [
+      "Yield strength",
+      "Ultimate tensile strength",
+      "Endurance strength",
+      "Elastic strength"
+    ],
+    "answer": "Yield strength"
+  },
+  {
+    "question": "This is the first stage of design processes that determines whether it is both possible and profitable to undertake a given engineering project. The ideas generated during this stage of the design process generally consist of general statements about overall concepts rather than specific descriptions of hardware. How do you call this?",
+    "choices": [
+      "Detail stage",
+      "Revision stage",
+      "Preliminary stage",
+      "Feasibility stage"
+    ],
+    "answer": "Feasibility stage"
+  },
+  {
+    "question": "At this point in the stress-strain curve, the material experiences some amount of plastic strain and thus will not return to its original shape after release of the load.",
+    "choices": [
+      "Elastic limit",
+      "Proportional limit",
+      "Endurance limit",
+      "Yield point"
+    ],
+    "answer": "Elastic limit"
+  },
+  {
+    "question": "This type of load is the one that is applied slowly and never removed. How do you call this load?",
+    "choices": [
+      "Static load",
+      "Fluctuating load",
+      "Random load",
+      "Fluctuating load"
+    ],
+    "answer": "Static load"
+  },
+  {
+    "question": "At the highest point of the stress-strain curve during the test, what highest stress on a test bar of the material is measured?",
+    "choices": [
+      "Apparent stress",
+      "Ultimate stress",
+      "Elastic stress",
+      "Yield stress"
+    ],
+    "answer": "Apparent stress"
+  },
+  {
+    "question": "This is a stress when a given element of a load-carrying member is subjected to a certain level of tensile stress followed by the same level of compressive stress; the stress cycle is repeated many thousands of times. How do you call this type of stress?",
+    "choices": [
+      "Repeated and Reversed Stress",
+      "Static stress",
+      "Minimum stress",
+      "Maximum stress"
+    ],
+    "answer": "Repeated and Reversed Stress"
+  },
+  {
+    "question": "These steels contain 30 to 50 points of carbon (0.30%-0.50%). Most machine elements having moderate to high strength requirements with fairly good ductility and moderate hardness requirements come from this group.",
+    "choices": [
+      "High-carbon steels",
+      "Medium-carbon steels",
+      "Low-carbon steels",
+      "Alloy steels"
+    ],
+    "answer": "Medium-carbon steels"
+  },
+  {
+    "question": "It is the process of increasing the hardness and strength of ductile material as it is plastically performed. How do you call this process?",
+    "choices": [
+      "Strain hardening",
+      "Surface hardening",
+      "Cold hardening",
+      "Hot hardening"
+    ],
+    "answer": "Strain hardening"
+  },
+  {
+    "question": "Which of the following is the average density of leather belts?",
+    "choices": ["0.035 lb/in3", "0.253 lb/in3", "0.046 lb/in3", "0.074 lb/in3"],
+    "answer": "0.035 lb/in3"
+  },
+  {
+    "question": "As a flat belt drive designer, what must be the belt speed to make your design most economical?",
+    "choices": [
+      "4000 to 4500 fpm",
+      "2000 to 3000 fpm",
+      "3000 to 4000 fpm",
+      "4000 to 5000 fpm"
+    ],
+    "answer": "4000 to 4500 fpm"
+  },
+  {
+    "question": "As suggested by Taylor, what is the recommended initial tension of the belt?",
+    "choices": [
+      "75 lb/in of width",
+      "71 lb/in of width",
+      "73 lb/in of width",
+      "80 lb/in of width"
+    ],
+    "answer": "71 lb/in of width"
+  },
+  {
+    "question": "Not adaptable to welding due to low tensile strength and poor ductility etc.",
+    "choices": [
+      "Copper parts",
+      "Aluminum parts",
+      "Cast iron materials",
+      "Bronze parts"
+    ],
+    "answer": "Aluminum parts"
+  },
+  {
+    "question": "Bearing surface that completely surrounds the journal is also called:",
+    "choices": [
+      "Offset bearing",
+      "Centrally loaded bearing",
+      "Full bearing",
+      "Babbit bearing"
+    ],
+    "answer": "Full bearing"
+  },
+  {
+    "question": "The purpose of lubrication is as mentioned except:",
+    "choices": [
+      "To lighten the load",
+      "Prevent adhesion",
+      "Prevent corrosion/oxidation",
+      "Cool the moving elements"
+    ],
+    "answer": "To lighten the load"
+  },
+  {
+    "question": "Tools usually used in wood pattern making in the foundry shop.",
+    "choices": [
+      "Saws and chisel",
+      "Knives and drills",
+      "Band saw",
+      "Drill machine"
+    ],
+    "answer": "Saws and chisel"
+  },
+  {
+    "question": "This group of materials characterizes the high level of corrosion resistance offered by alloys in this group. To be classified in this group of material, the alloy must have a chromium content of at least 10%, and most have 12% to 18% chromium.",
+    "choices": [
+      "Stainless steels",
+      "Structural steels",
+      "Tool steels",
+      "Mild steels"
+    ],
+    "answer": "Stainless steels"
+  },
+  {
+    "question": "The ability of the material to absorb energy up to fracture.",
+    "choices": ["Toughness", "Rigidity", "Resilience", "Stiffness"],
+    "answer": "Toughness"
+  },
+  {
+    "question": "These group of stainless steels fall into the AISI 200 and 300 series. They are general-purpose grades with moderate strength. Most are not heat-treatable, and their final properties are determined by the amount of working, with the resulting temper referred to as 1/4 hard, ½ hard, 3/4 hard, and full hard. These alloys are nonmagnetic and are typically used in food processing equipment.",
+    "choices": [
+      "Austenitic stainless steels",
+      "Ferritic stainless steels",
+      "Martensitic stainless steels",
+      "None of these"
+    ],
+    "answer": "Austenitic stainless steels"
+  },
+  {
+    "question": "These stainless steels belong to the AISI 400 series, designated as 405, 409, 430, 446, and so on. They are magnetic and perform well at elevated temperatures, from 1300°F to 1900°F (700°C-1040°C), depending on the alloy. They are not heat-treatable, but they can be cold-worked to improve properties. Typical applications include heat exchanger tubing, petroleum refining equipment, automotive trim, furnace parts, and chemical equipment.",
+    "choices": [
+      "Austenitic stainless steels",
+      "Ferritic stainless steels",
+      "Martensitic stainless steels",
+      "None of these"
+    ],
+    "answer": "Ferritic stainless steels"
+  },
+  {
+    "question": "These stainless steels are also members of the AISI 400 series, including 403, 410, 414, 416, 420, 431, and 440 types. They are magnetic, can be heat-treated, and have higher strength than the 200 and 300 series, while retaining good toughness. Typical uses include turbine engine parts, cutlery, scissors, pump parts, valve parts, surgical instruments, aircraft fittings, and marine hardware.",
+    "choices": [
+      "Austenitic stainless steels",
+      "Ferritic stainless steels",
+      "Martensitic stainless steels",
+      "None of these"
+    ],
+    "answer": "Martensitic stainless steels"
+  },
+  {
+    "question": "Most of these materials are designated by ASTM numbers established by the American Society for Testing and Materials. One common grade is ASTM A36, which has a minimum yield point of 36,000 psi (248 MPa) and is very ductile. It is basically a low-carbon, hot-rolled steel available in sheet, plate, bar, and structural shapes such as some wide-flange beams, American Standard beams, channels, and angles.",
+    "choices": [
+      "Structural steels",
+      "Tool steels",
+      "Cast steels",
+      "Stainless steels"
+    ],
+    "answer": "Structural steels"
+  },
+  {
+    "question": "Compounds of metallic elements, most frequently oxides, nitrides, and carbides.",
+    "choices": ["Plastic", "Polymers", "Ceramics", "Alloy"],
+    "answer": "Ceramics"
+  },
+  {
+    "question": "This material refers to a group of steels typically used for cutting tools, punches, dies, shearing blades, chisels, and similar uses. The numerous varieties of tool steel materials have been classified into seven general types. Whereas most uses of these steels are related to the field of manufacturing engineering, they are also pertinent to machine design where the ability to maintain a keen edge under abrasive conditions is required. Also, some of these steels have rather high shock resistance which may be desirable in machine components such as parts for mechanical clutches, pawls, blades, guides for moving materials, and clamps.",
+    "choices": [
+      "Structural steels",
+      "Tool steels",
+      "Cast steels",
+      "Stainless steels"
+    ],
+    "answer": "Tool steels"
+  },
+  {
+    "question": "A material having different properties in all directions at a point in solid.",
+    "choices": [
+      "Isotropic material",
+      "Anisotropic material",
+      "Orthotropic material",
+      "Ceramic material"
+    ],
+    "answer": "Anisotropic material"
+  },
+  {
+    "question": "Parts subjected to repeated applications of loads or to stress conditions that vary with time over several thousands or millions of cycles fail because of the phenomenon of fatigue. Materials are tested under controlled cyclic loading to determine their ability to resist such repeated loads. The resulting data are reported as which of the following?",
+    "choices": [
+      "Endurance strength",
+      "Ultimate strength",
+      "Yield strength",
+      "Elastic strength"
+    ],
+    "answer": "Endurance strength"
+  },
+  {
+    "question": "Which of the following is the other term for endurance strength?",
+    "choices": [
+      "Fatigue strength",
+      "Ultimate strength",
+      "Yield strength",
+      "Elastic strength"
+    ],
+    "answer": "Fatigue strength"
+  },
+  {
+    "question": "A material having different properties in three mutually perpendicular directions at a point in solid and having three mutually perpendicular planes of material symmetry.",
+    "choices": [
+      "Orthotropic material",
+      "Isotropic material",
+      "Anisotropic material",
+      "Thermoplastic material"
+    ],
+    "answer": "Orthotropic material"
+  },
+  {
+    "question": "The onset of plastic deformation is called:",
+    "choices": ["Necking", "Yielding", "Creeping", "Buckling"],
+    "answer": "Yielding"
+  }
+]
